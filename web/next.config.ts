@@ -1,17 +1,19 @@
 import type { NextConfig } from "next";
 import path from "node:path";
 
-const nextConfig: NextConfig = {
-  // Static export for GitHub Pages — pre-generates all wiki pages at build time.
-  // Chat surface degrades gracefully (no backend needed for Search + Browse).
-  output: "export",
-  // The wiki viewer page and search page are fully static (generateStaticParams).
-  // The home page (Chat) degrades to a notice when no API is present.
-  images: { unoptimized: true },
+// Detect if we're deploying to GitHub Pages (repo name becomes basePath)
+const repo = process.env.GITHUB_REPOSITORY ?? "";
+const repoName = repo.includes("/") ? repo.split("/")[1] : "";
+const isGitHubPages = !!process.env.GITHUB_ACTIONS && !!repoName;
+const basePath = isGitHubPages ? `/${repoName}` : "";
 
-  // Pin the file-tracing root to this web project so Next.js does not infer a
-  // different workspace root (which emits a warning) when the repo sits inside
-  // a larger monorepo or alongside other lockfiles.
+const nextConfig: NextConfig = {
+  // Static export for GitHub Pages
+  output: "export",
+  images: { unoptimized: true },
+  // Required for GitHub Pages: add repo name as base path
+  basePath: basePath,
+  // Pin the file-tracing root
   outputFileTracingRoot: path.join(__dirname),
 };
 
