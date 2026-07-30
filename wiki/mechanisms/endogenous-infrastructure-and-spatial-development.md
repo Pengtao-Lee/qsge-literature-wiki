@@ -4,6 +4,7 @@ type: mechanism
 status: active
 papers:
   - trew-2020-endogenous-infrastructure
+  - trew-2014-spatial-takeoff
   - desmet-rossi-hansberg-2014-spatial-development
   - liu-zhang-cai-2026-network-infrastructure
   - allen-arkolakis-2014-trade-topography
@@ -24,7 +25,7 @@ The endogenous infrastructure mechanism describes the bidirectional interaction 
 
 ## Theoretical Framework: Spatial Development with Transport Costs
 
-The canonical framework for understanding the interaction between transport costs and spatial development builds on the model of [[desmet-rossi-hansberg-2014-spatial-development]], which features a continuum of locations, two sectors (manufacturing and services), and endogenous innovation with spatial diffusion of technology. In this framework, firms invest in the probability of drawing a productivity improvement, paying fixed and marginal costs that depend on local energy prices and wages; technology then diffuses across space with exponential decay each period. [[trew-2020-endogenous-infrastructure]] extends this framework to incorporate a third sector -- transport and distribution -- alongside endogenous infrastructure investment, so that trade costs are no longer an exogenous iceberg parameter but instead emerge from the interaction of transport labor, fixed infrastructure stock, and the volume of goods traded across space.
+The canonical framework for understanding the interaction between transport costs and spatial development builds on the model of [[desmet-rossi-hansberg-2014-spatial-development]], which features a continuum of locations, two sectors (manufacturing and services), and endogenous innovation with spatial diffusion of technology. In this framework, firms invest in the probability of drawing a productivity improvement, paying fixed and marginal costs that depend on local energy prices and wages; technology then diffuses across space with exponential decay each period. [[trew-2014-spatial-takeoff]] applies this framework to the first industrial revolution in England, calibrating the model with Shaw-Taylor parish-level occupational data for c. 1710 and showing that the initial spatial concentration of manufacturing productivity in the North of England was critical to whether and when an industrial takeoff occurred. [[trew-2020-endogenous-infrastructure]] extends the 2014 model to incorporate a third sector -- transport and distribution -- alongside endogenous infrastructure investment, so that trade costs are no longer an exogenous iceberg parameter but instead emerge from the interaction of transport labor, fixed infrastructure stock, and the volume of goods traded across space.
 
 The general equilibrium structure follows the standard quantitative spatial equilibrium approach surveyed in [[redding-rossi-hansberg-2017-quantitative-spatial]], in which goods and factor markets clear across a continuum of locations, labor is perfectly mobile, and land is the fixed local factor. What distinguishes the endogenous-infrastructure extension is the explicit modeling of the transport sector as a user of labor and capital whose marginal product varies across space and over time as the spatial distribution of production changes.
 

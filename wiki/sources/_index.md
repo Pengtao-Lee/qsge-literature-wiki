@@ -8,6 +8,7 @@ One page per paper. Canonical bibliographic records — the factual anchors for 
 - [[desmet-rossi-hansberg-2014-spatial-development]] — Desmet & Rossi-Hansberg (2014): Spatial Development
 - [[redding-rossi-hansberg-2017-quantitative-spatial]] — Redding & Rossi-Hansberg (2017): Quantitative Spatial Economics (survey)
 - [[monte-redding-rossi-hansberg-2018-commuting]] — Monte, Redding & Rossi-Hansberg (2018): Commuting, Migration, and Local Employment Elasticities
+- [[trew-2014-spatial-takeoff]] — Trew (2014): Spatial Takeoff in the First Industrial Revolution
 - [[trew-2020-endogenous-infrastructure]] — Trew (2020): Endogenous Infrastructure Development and Spatial Takeoff
 - [[kleinman-liu-redding-2023-dynamic-spatial]] — Kleinman, Liu & Redding (2023): Dynamic Spatial General Equilibrium
 
