@@ -26,12 +26,12 @@ The canonical knowledge layer. LLM-maintained.
 
 ## Status
 
-- **Papers:** 13 (10 English + 3 Chinese)
-- **Source pages:** 13 — `wiki/sources/`
+- **Papers:** 14 (10 English + 3 Chinese + 1 added 2026-07-31)
+- **Source pages:** 14 — `wiki/sources/`
 - **Concepts (5):** quantitative-spatial-equilibrium, gravity-in-spatial-economics, local-employment-elasticities-and-commuting, economics-of-the-hukou-system, data-as-a-non-rival-factor-in-spatial-models
 - **Mechanisms (5):** endogenous-infrastructure-and-spatial-development, spatial-innovation-and-structural-transformation, capital-labor-dynamics-and-spatial-convergence, welfare-effects-of-migration-in-chinese-cities, firm-level-frictions-and-spatial-misallocation
 - **Debates (1):** government-and-urbanization
 - **Synthesis (3):** trade-and-migration-cost-reductions-in-china, migration-barriers-and-spatial-inequality, network-infrastructure-and-market-integration
-- **Last build:** 2026-07-30
+- **Last build:** 2026-07-31
 - **Last lint:** 2026-07-30 — frontmatter PASS, links OK (image refs in raw papers only), 2 expected orphans
 - **Last synthesis:** —
