@@ -1,4 +1,4 @@
-# Wiki
+# QSGE Literature Wiki
 
 The canonical knowledge layer. LLM-maintained.
 

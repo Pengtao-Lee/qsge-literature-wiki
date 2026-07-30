@@ -1,0 +1,104 @@
+1:"$Sreact.fragment"
+2:I[70096,["/_next/static/chunks/0dj_s.qt6dofp.js","/_next/static/chunks/0cw~g10oyx2-_.js","/_next/static/chunks/13o~ce8zttnqe.js","/_next/static/chunks/17jmmcdmb6epk.js","/_next/static/chunks/0ictg086~sfqg.js","/_next/static/chunks/0gd.vhxig.p5_.js"],""]
+3:I[86495,["/_next/static/chunks/0dj_s.qt6dofp.js","/_next/static/chunks/0cw~g10oyx2-_.js","/_next/static/chunks/13o~ce8zttnqe.js","/_next/static/chunks/17jmmcdmb6epk.js","/_next/static/chunks/0ictg086~sfqg.js","/_next/static/chunks/0gd.vhxig.p5_.js"],"WIKI_PROSE_CLASS"]
+4:I[86495,["/_next/static/chunks/0dj_s.qt6dofp.js","/_next/static/chunks/0cw~g10oyx2-_.js","/_next/static/chunks/13o~ce8zttnqe.js","/_next/static/chunks/17jmmcdmb6epk.js","/_next/static/chunks/0ictg086~sfqg.js","/_next/static/chunks/0gd.vhxig.p5_.js"],"WikiMarkdown"]
+a:I[59170,["/_next/static/chunks/0dj_s.qt6dofp.js","/_next/static/chunks/0cw~g10oyx2-_.js","/_next/static/chunks/13o~ce8zttnqe.js","/_next/static/chunks/17jmmcdmb6epk.js","/_next/static/chunks/0ictg086~sfqg.js","/_next/static/chunks/0gd.vhxig.p5_.js"],"WikiToc"]
+b:I[78602,["/_next/static/chunks/0dj_s.qt6dofp.js","/_next/static/chunks/0cw~g10oyx2-_.js","/_next/static/chunks/13o~ce8zttnqe.js"],"OutletBoundary"]
+c:"$Sreact.suspense"
+5:T3711,> **Paper claim** — A dynamic general equilibrium model with a continuum of locations shows that spatial concentration and structural transformation interact endogenously to generate the take-off of service-sector productivity, rising land-rent dispersion, and the changing geography of employment, provided innovation incentives are preserved through land-market competition despite complete within-period technology diffusion.
+
+Raw markdown: [[raw_markdown/papers/desmet-rossi-hansberg-2014-spatial-development]]
+
+## Research Question
+
+How can space and geography be incorporated into an endogenous growth framework to jointly explain the macroeconomic and spatial evolution of an economy — specifically the postwar US experience of structural transformation from manufacturing to services, the mid-1990s acceleration in service productivity, rising land rents and their geographic dispersion, and the increasing spatial concentration of services?
+
+## Model / Experimental Design
+
+A dynamic general equilibrium model with a continuum of locations on the closed interval [0,1], each endowed with one unit of land. Two sectors produce — manufacturing (M) and services (S) — using labor and land under constant-returns-to-scale technology; fixed land per location creates decreasing returns at the location level. Firms can invest in innovation each period: paying cost ψ(φ) buys probability φ of drawing a technology multiplier from a Pareto distribution (lower bound 1, shape parameter a). Technology diffuses spatially between periods with exponential decay in distance (parameter δ). Goods trade incurs iceberg transport costs at rate κ per unit distance. Labor is freely mobile across locations and sectors each period; workers hold diversified portfolios of land and firms everywhere. Land is allocated to the highest-bidding firm each period (first-price auction).
+
+Key structural assumptions that render the model tractable: (i) labor mobility and diversified ownership, (ii) spatially correlated innovation draws (within-county correlation → 1, i.i.d. across counties), and (iii) diffusion that fully dissipates a firm's innovation advantage within one period. Together these imply Proposition 1: a firm's optimal dynamic innovation decision reduces to maximizing current-period profits, because tomorrow's technology and scale depend on neighbouring locations' innovations, not on the firm's own past choices. Proposition 2 establishes existence and uniqueness when γ + μᵢ ≤ 1 (sufficiently concave technology). The model is solved numerically by dividing the interval into 500 counties and averaging over 100 realizations of innovation draws.
+
+## Main Results
+
+1. **Structural transformation trough:** Faster manufacturing productivity growth combined with CES preferences (elasticity of substitution = 0.4, < 1) shifts employment out of manufacturing into services. The shift slows after the mid-1990s as service productivity accelerates.
+
+2. **Endogenous service productivity take-off:** Service-sector innovation remains negligible until enough workers relocate into services, raising employment density in service clusters past a threshold where the scale effect in innovation (eq. 9) makes R&D profitable. The model matches the timing of the observed mid-1990s acceleration.
+
+3. **Increasing spatial concentration of services:** The relative standard deviation of goods-to-services employment density falls from 1.18 (1950) to 1.00 (2005) in the data; the model replicates this convergence (top-left panel, Figure 10).
+
+4. **Rise in level and dispersion of land rents:** Land rents accelerate after 1995 as both sectors compete for the same locations. The cross-MSA standard deviation of log land values increases from 0.87 (1995) to 1.07 (2005) in the data; the model produces a comparable widening (Figure 11). The dispersion continues rising to 1.24 in 2010.
+
+5. **Wage growth acceleration:** Real wage growth increases after the mid-1990s, consistent with value-added-per-worker data (Figure 4).
+
+6. **Non-monotonic comparative statics on transport costs:** Higher transport costs (κ = 0.08 vs. 0.07) generate static trade losses but dynamic gains through denser clustering, which accelerates service innovation. Present discounted utility falls when κ drops from 0.08 (2.64) to 0.07 (2.36) — a "second best" result: the innovation externality (profits last one period only) means transport-cost-induced clustering moves the economy closer to the social optimum.
+
+7. **Non-monotonic effect of the elasticity of substitution:** Lower elasticity accelerates the labor reallocation to services, but also discourages spatial clustering (agents avoid specializing away from the other sector), producing a non-monotonic relation between the elasticity and service productivity growth.
+
+8. **Land congestion and balanced growth:** Increasing the land share from 0.4 to 0.5 (μᵢ = 0.5) leads to clean geographic separation of sectors and immediate balanced growth, with no collocation.
+
+## Mechanisms Identified
+
+- **Scale effect in innovation (core mechanism):** Firms in denser locations innovate more because the first-order condition for innovation φ*(ℓ,t) is increasing in local employment L̂(ℓ,t) conditional on productivity and real wages (eq. 9). More productive (and thus larger) locations innovate more, reinforcing their productivity advantage. This micro-foundation is consistent with Carlino, Chatterjee, and Hunt (2007), who find a doubling of employment density increases patents per capita by 20 percent.
+
+- **Static innovation result (Proposition 1):** Because technology diffuses fully within one period and land competition bids away ex ante profits, firms' dynamic innovation problem collapses to a static one — the key tractability device.
+
+- **Collocation through transport costs:** When both sectors face iceberg transport costs, services locate near manufacturing clusters to avoid high relative prices of manufactured goods. Higher transport costs strengthen this collocation force, generating denser clusters and earlier service innovation — opposite to the standard Krugman (1991) / Puga (1999) result.
+
+- **Structural transformation as an innovation catalyst:** The shift of labor into services (driven by faster manufacturing productivity growth + low elasticity of substitution) eventually raises service employment density enough to trigger endogenous service innovation. This reverses Baumol's (1967) "cost disease" prediction: the lagging sector does not stagnate; it concentrates and innovates.
+
+- **Land competition as the propagation mechanism:** Collocation of the two sectors bids up land rents in the shared area, increasing both the level and the spatial dispersion of land prices — a spatial signature absent from one-sector or representative-agent growth models.
+
+Links: [[structural-transformation]], [[spatial-innovation-scale-effect]], [[land-rent-dispersion]]
+
+## Methods and Measures
+
+- **Theoretical framework:** Dynamic general equilibrium with a continuum of locations, monopolistic competition in land (first-price auction), endogenous innovation with spatially correlated draws, and exponential spatial diffusion.
+- **Sequential market clearing** (following Rossi-Hansberg 2005): Goods markets clear via an excess-supply differential equation (eq. 11) that accounts for iceberg melting; labor markets clear subject to free mobility (eq. 12); land goes to the highest-bidding sector.
+- **Numerical method:** Discretise [0,1] into 500 equal-width "counties"; firms in the same county and sector draw identical innovation multipliers; draws are i.i.d. across counties. Results are ensemble averages over 100 realizations.
+- **Calibration targets:** Preference parameters (h_M, h_S) match 1950 employment shares. The elasticity of substitution is set to 0.4 (following Stockman and Tesar 1995). Transport cost κ = 0.08 (from Desmet and Rossi-Hansberg 2012, adjusted downward from inter-country estimates). Diffusion decay δ = 7.5 (from Comin, Dmitriev, and Rossi-Hansberg 2012). Innovation cost parameters ψ₁, ψ₂ and the Pareto shape a are jointly calibrated to match average manufacturing and service productivity growth (1980–2005).
+- **Empirical data:** BEA Industry Economic Accounts (value added, employment, prices by industry, 1950–2005); BEA Regional Economic Accounts (county employment by sector); US Census County and City Databooks; Shiller (2005) and Davis and Heathcote (2007) land/housing price indexes; Davis and Palumbo (2008) MSA-level land values.
+
+Links: [[sequential-market-clearing]], [[iceberg-transport-costs]], [[spatial-diffusion-model]]
+
+## Concepts Engaged
+
+- [[endogenous-growth]] — innovation is a costly, profit-maximising decision with stochastic returns.
+- [[structural-transformation]] — the reallocation of employment across sectors as a driver of aggregate dynamics.
+- [[spatial-equilibrium]] — free labour mobility equalises utility across locations each period.
+- [[agglomeration-economies]] — the scale effect in innovation creates a density-productivity link.
+- [[technology-diffusion]] — spatial decay of knowledge spillovers (exponential form).
+- [[iceberg-transport-costs]] — standard device from trade and economic geography.
+- [[land-rent]] — the fixed factor through which competition transmits agglomeration forces.
+- [[balanced-growth-path]] — the economy asymptotically converges to constant common growth in both sectors.
+
+## Connection to Debates
+
+> **Paper claim** — This paper enters the debate on whether structural transformation condemns a mature economy to Baumol's cost disease (secular stagnation of the low-productivity-growth sector). It argues the opposite: the reallocation of labour into the lagging sector eventually creates enough spatial concentration to trigger endogenous innovation in that sector, reversing the productivity growth differential. It also contributes to the debate on transport costs and growth (Baldwin and Martin 2004) by showing that higher transport costs can improve welfare through dynamic clustering gains, a "second best" result arising from the innovation externality. Finally, it provides a spatial micro-foundation for the observed post-1995 rise in land-price dispersion, linking housing-market dynamics to real-sector innovation and agglomeration.
+
+Links: [[baumol-cost-disease-debate]], [[transport-costs-and-growth-debate]]
+
+## Theoretical / Empirical Significance
+
+This paper is one of the first to build a fully computable dynamic general equilibrium model with a continuum of spatially ordered locations in which firms make endogenous innovation decisions, goods trade is costly, and labour is mobile — all features that prior spatial-dynamic models (e.g., Boucekkine, Camacho, and Zou 2009; Brock and Xepapadeas 2008, 2010) had to sacrifice for tractability. The static-innovation proposition (Proposition 1) is the key theoretical innovation that makes this possible.
+
+Empirically, the model matches both aggregate moments (employment shares, productivity growth rates, the timing of the service take-off) and spatial moments (cross-county employment-density convergence across sectors, the level and dispersion of land rents, the co-location pattern of manufacturing and services). The match on land-rent dispersion is particularly consequential: it demonstrates that introducing space is not merely a theoretical embellishment but is necessary to account for observable heterogeneity in asset prices. The comparative-static result that higher transport costs can raise welfare by spurring innovation has direct policy implications for infrastructure investment and regional integration.
+
+The paper also provides a new channel for understanding why the service sector, once considered inherently less innovative (Baumol 1967), exhibited a productivity acceleration in the 1990s: not because of an exogenous technology shock in services, but because the structural transformation itself concentrated service employment enough for innovation to become profitable.
+
+## Notes and Caveats
+
+- **Geography is one-dimensional:** The model abstracts from realistic two-dimensional geography, multiple cities, and natural features (rivers, coasts, mountains). The unit interval approximates the US East–West axis.
+- **No international trade:** The US is treated as a closed economy. The slowdown in the relative price decline of manufactured goods is weaker in the model than in the data, plausibly because import competition from China and Mexico is absent. The employment-share fit improves when data are trade-adjusted.
+- **No housing or credit markets:** Land is the only durable asset; there is no mortgage market, no collateral channel, and no boom-bust cycle beyond fundamentals. The model captures the permanent component of the post-1995 land-price increase but understates its magnitude, as some of the observed rise was likely speculative.
+- **Innovation externality is large:** Profits from innovation last only one period before diffusion, creating a large divergence between private and social returns. The authors note that optimal location-specific time-varying patents would be the first-best policy but are informationally infeasible.
+- **Calibration is informal:** Parameter choices are discussed qualitatively rather than via formal estimation (e.g., SMM). The model is illustrative rather than a structural estimate of the US economy.
+- **Finiteness of locations:** 500 counties introduce residual aggregate volatility; the paper averages over 100 realisations to smooth this. Larger numbers of locations would better approximate the theoretical continuum.
+- **Initial conditions are imposed:** The productivity functions Z_M(ℓ,0) and Z_S(ℓ,0) are chosen to match the 1950 spatial pattern rather than derived from an earlier stage of development.
+- **No explicit firm heterogeneity beyond location:** All firms in the same sector and location are identical except for innovation draws. There is no firm-level selection or granular competition.
+0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"className":"mx-auto flex w-full max-w-[1000px] gap-8 px-6 pt-14 lg:px-10 lg:pt-0","children":[["$","article",null,{"id":"wiki-article","className":"min-w-0 max-w-[720px] flex-1 py-8 lg:py-9","children":[["$","nav",null,{"className":"mb-4 flex flex-wrap items-center gap-1.5 text-[12.5px] text-zinc-500 dark:text-zinc-400","children":[["$","$L2",null,{"href":"/wiki","className":"hover:text-[#0b57d0] dark:hover:text-[#a8c7fa]","children":"Browse"}],[["$","span",null,{"className":"opacity-55","children":"/"}],["$","$L2",null,{"href":"/wiki/desmet-rossi-hansberg-2014-spatial-development","className":"hover:text-[#0b57d0] dark:hover:text-[#a8c7fa]","children":"Sources"}]],["$","span",null,{"className":"opacity-55","children":"/"}],["$","span",null,{"className":"font-medium text-zinc-700 dark:text-zinc-200","children":"Spatial Development"}]]}],["$","h1",null,{"className":"mb-3.5 text-[33px] font-bold leading-[1.18] tracking-tight text-[#1f1f1f] dark:text-zinc-50","children":"Spatial Development"}],["$","div",null,{"className":"mb-7 flex flex-wrap items-center gap-2","children":[["$","span",null,{"className":"inline-flex items-center gap-1.5 rounded-full border border-zinc-200 bg-[#f7f8fa] px-2.5 py-0.5 text-[12px] font-medium text-zinc-700 dark:border-white/10 dark:bg-[#1c1e22] dark:text-zinc-200","children":[["$","span",null,{"className":"h-1.5 w-1.5 rounded-full bg-[#4285f4]"}],"Sources"]}],["$","span",null,{"className":"inline-flex items-center gap-1.5 rounded-full border border-zinc-200 bg-[#f7f8fa] px-2.5 py-0.5 text-[12px] font-medium text-zinc-700 dark:border-white/10 dark:bg-[#1c1e22] dark:text-zinc-200","children":[["$","span",null,{"className":"h-1.5 w-1.5 rounded-full bg-[#a855f7]"}],"source"]}],["$","span",null,{"className":"inline-flex items-center gap-1.5 rounded-full border border-[#1a7f37]/25 bg-[#1a7f37]/[.07] px-2.5 py-0.5 text-[12px] font-medium text-[#1a7f37] dark:border-[#5fd089]/25 dark:bg-[#5fd089]/10 dark:text-[#5fd089]","children":[["$","span",null,{"className":"h-1.5 w-1.5 rounded-full bg-current"}],"draft"]}]]}],["$","div",null,{"className":"$3","children":["$","$L4",null,{"children":"$5"}]}]]}],"$L6"]}],["$L7","$L8"],"$L9"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"ZBr85wCEGKZN2OjHhbq4C"}
+6:["$","aside",null,{"className":"sticky top-0 hidden h-[calc(100vh-3rem)] w-[200px] shrink-0 self-start overflow-y-auto py-9 xl:block","children":["$","$La",null,{}]}]
+7:["$","script","script-0",{"src":"/_next/static/chunks/0ictg086~sfqg.js","async":true}]
+8:["$","script","script-1",{"src":"/_next/static/chunks/0gd.vhxig.p5_.js","async":true}]
+9:["$","$Lb",null,{"children":["$","$c",null,{"name":"Next.MetadataOutlet","children":"$@d"}]}]
+d:null

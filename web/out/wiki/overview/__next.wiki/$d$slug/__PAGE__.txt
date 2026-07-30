@@ -1,0 +1,38 @@
+1:"$Sreact.fragment"
+2:I[70096,["/_next/static/chunks/0dj_s.qt6dofp.js","/_next/static/chunks/0cw~g10oyx2-_.js","/_next/static/chunks/13o~ce8zttnqe.js","/_next/static/chunks/17jmmcdmb6epk.js","/_next/static/chunks/0ictg086~sfqg.js","/_next/static/chunks/0gd.vhxig.p5_.js"],""]
+3:I[86495,["/_next/static/chunks/0dj_s.qt6dofp.js","/_next/static/chunks/0cw~g10oyx2-_.js","/_next/static/chunks/13o~ce8zttnqe.js","/_next/static/chunks/17jmmcdmb6epk.js","/_next/static/chunks/0ictg086~sfqg.js","/_next/static/chunks/0gd.vhxig.p5_.js"],"WIKI_PROSE_CLASS"]
+4:I[86495,["/_next/static/chunks/0dj_s.qt6dofp.js","/_next/static/chunks/0cw~g10oyx2-_.js","/_next/static/chunks/13o~ce8zttnqe.js","/_next/static/chunks/17jmmcdmb6epk.js","/_next/static/chunks/0ictg086~sfqg.js","/_next/static/chunks/0gd.vhxig.p5_.js"],"WikiMarkdown"]
+6:I[59170,["/_next/static/chunks/0dj_s.qt6dofp.js","/_next/static/chunks/0cw~g10oyx2-_.js","/_next/static/chunks/13o~ce8zttnqe.js","/_next/static/chunks/17jmmcdmb6epk.js","/_next/static/chunks/0ictg086~sfqg.js","/_next/static/chunks/0gd.vhxig.p5_.js"],"WikiToc"]
+7:I[78602,["/_next/static/chunks/0dj_s.qt6dofp.js","/_next/static/chunks/0cw~g10oyx2-_.js","/_next/static/chunks/13o~ce8zttnqe.js"],"OutletBoundary"]
+9:"$Sreact.suspense"
+5:T4ca,High-level map of the literature in this wiki. Populated by `/wiki-build` as the corpus grows.
+
+This page is a starting point for `/wiki-query` for broad orientation questions ("what does this literature look like?", "what are the major themes?"). For specific topics, navigate directly to the concept, mechanism, or debate page.
+
+## Themes
+
+*The major themes emerging from the current corpus. Each theme links to the relevant synthesis / concept / debate pages.*
+
+## Tensions Across the Threads
+
+*Where threads pull in different directions — pointers to the active debate pages.*
+
+## Frontier / Extension *(if applicable)*
+
+*Set by the `/wiki-build` planner only if the corpus contains a coherent frontier sub-literature (e.g., AI-era extensions, post-2020 replication wave). Omit otherwise.*
+
+> **Current assessment (YYYY-MM):** *The wiki's current top-level synthesis, with explicit labelling of which conclusions are established (≥2 papers with specific claims) vs. open (structural implications of combining papers from different threads, not yet directly tested).*
+
+## Open Questions
+
+*Bullets — 3–6 items.*
+
+## See also
+
+- [[concepts/_index]]
+- [[mechanisms/_index]]
+- [[debates/_index]]
+- [[synthesis/_index]]
+0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"className":"mx-auto flex w-full max-w-[1000px] gap-8 px-6 pt-14 lg:px-10 lg:pt-0","children":[["$","article",null,{"id":"wiki-article","className":"min-w-0 max-w-[720px] flex-1 py-8 lg:py-9","children":[["$","nav",null,{"className":"mb-4 flex flex-wrap items-center gap-1.5 text-[12.5px] text-zinc-500 dark:text-zinc-400","children":[["$","$L2",null,{"href":"/wiki","className":"hover:text-[#0b57d0] dark:hover:text-[#a8c7fa]","children":"Browse"}],[["$","span",null,{"className":"opacity-55","children":"/"}],["$","$L2",null,{"href":"/wiki/overview","className":"hover:text-[#0b57d0] dark:hover:text-[#a8c7fa]","children":"Synthesis"}]],["$","span",null,{"className":"opacity-55","children":"/"}],["$","span",null,{"className":"font-medium text-zinc-700 dark:text-zinc-200","children":"Overview"}]]}],["$","h1",null,{"className":"mb-3.5 text-[33px] font-bold leading-[1.18] tracking-tight text-[#1f1f1f] dark:text-zinc-50","children":"Overview"}],["$","div",null,{"className":"mb-7 flex flex-wrap items-center gap-2","children":[["$","span",null,{"className":"inline-flex items-center gap-1.5 rounded-full border border-zinc-200 bg-[#f7f8fa] px-2.5 py-0.5 text-[12px] font-medium text-zinc-700 dark:border-white/10 dark:bg-[#1c1e22] dark:text-zinc-200","children":[["$","span",null,{"className":"h-1.5 w-1.5 rounded-full bg-[#4285f4]"}],"Synthesis"]}],["$","span",null,{"className":"inline-flex items-center gap-1.5 rounded-full border border-zinc-200 bg-[#f7f8fa] px-2.5 py-0.5 text-[12px] font-medium text-zinc-700 dark:border-white/10 dark:bg-[#1c1e22] dark:text-zinc-200","children":[["$","span",null,{"className":"h-1.5 w-1.5 rounded-full bg-[#a855f7]"}],"synthesis"]}],["$","span",null,{"className":"inline-flex items-center gap-1.5 rounded-full border border-[#1a7f37]/25 bg-[#1a7f37]/[.07] px-2.5 py-0.5 text-[12px] font-medium text-[#1a7f37] dark:border-[#5fd089]/25 dark:bg-[#5fd089]/10 dark:text-[#5fd089]","children":[["$","span",null,{"className":"h-1.5 w-1.5 rounded-full bg-current"}],"stub"]}]]}],["$","div",null,{"className":"$3","children":["$","$L4",null,{"children":"$5"}]}]]}],["$","aside",null,{"className":"sticky top-0 hidden h-[calc(100vh-3rem)] w-[200px] shrink-0 self-start overflow-y-auto py-9 xl:block","children":["$","$L6",null,{}]}]]}],[["$","script","script-0",{"src":"/_next/static/chunks/0ictg086~sfqg.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/0gd.vhxig.p5_.js","async":true}]],["$","$L7",null,{"children":"$L8"}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"ZBr85wCEGKZN2OjHhbq4C"}
+8:["$","$9",null,{"name":"Next.MetadataOutlet","children":"$@a"}]
+a:null
