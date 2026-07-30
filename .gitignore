@@ -55,6 +55,7 @@ web/public/wiki-index.json
 
 # Local env (canonical reference is .env.example)
 .env
+!.env.example
 
 # Browser-test artifacts
 .playwright-cli/
@@ -62,3 +63,4 @@ web/public/wiki-index.json
 
 # deterministic build/serve script logs
 .build_and_serve*.log
+
