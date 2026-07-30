@@ -5,12 +5,12 @@
  * `.env.example`) to brand the wiki for your own research domain.
  */
 export const siteConfig = {
-  title: process.env.NEXT_PUBLIC_SITE_TITLE ?? "Literature Wiki",
+  title: process.env.NEXT_PUBLIC_SITE_TITLE ?? "QSGE Literature Wiki",
   description:
     process.env.NEXT_PUBLIC_SITE_DESCRIPTION ??
-    "Browse, search, and chat with a research-literature wiki.",
+    "Quantitative Spatial General Equilibrium knowledge base — from classical spatial economics to dynamic frontier extensions.",
   greeting:
-    process.env.NEXT_PUBLIC_SITE_GREETING ?? "How can I help you today?",
+    process.env.NEXT_PUBLIC_SITE_GREETING ?? "Ask the QSGE wiki…",
   composerPlaceholder:
-    process.env.NEXT_PUBLIC_SITE_PLACEHOLDER ?? "Ask the literature wiki…",
+    process.env.NEXT_PUBLIC_SITE_PLACEHOLDER ?? "Search the spatial economics literature…",
 };
