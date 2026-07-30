@@ -1,0 +1,113 @@
+---
+title: "Migration Barriers and Spatial Inequality"
+type: synthesis
+status: active
+papers:
+  - li-ma-tang-2024-migration-misallocation
+  - tombe-zhu-2019-trade-migration-china
+  - wu-you-2025-urbanization
+  - ma-tang-2020-geography-trade
+  - liu-zhang-cai-2026-network-infrastructure
+  - kleinman-liu-redding-2023-dynamic-spatial
+  - zhao-chen-fu-2022-dynamic-qse-china
+  - lin-liu-zhou-2026-data-market
+tags:
+  - spatial inequality
+  - migration barriers
+  - hukou
+  - misallocation
+  - China
+  - agglomeration
+---
+
+## Migration Barriers and Spatial Inequality
+
+Spatial inequality — the dispersion of real incomes, productivity, and welfare across locations within a country — is shaped by the interaction between migration barriers (hukou restrictions, moving costs, information frictions) and the underlying spatial distribution of productivity, amenities, and firm-level distortions. While migration barriers preserve spatial income differences by preventing labor from moving to high-productivity locations, their removal does not unambiguously reduce spatial inequality: when workers migrate to already-productive regions, the resulting agglomeration economies can widen the gap between winning and losing regions even as they raise national welfare. The net effect depends on the relative strength of selection (who moves), agglomeration (how productivity responds to density), and the spatial distribution of micro-level frictions. In China, these forces interact in ways that create a fundamental tension between aggregate efficiency and spatial equity, with direct implications for the design of migration, fiscal, and place-based policies.
+
+### Measuring Spatial Inequality in China
+
+China exhibits among the highest levels of spatial income inequality of any major economy. The ratio of real GDP per worker between the top five and bottom five provinces was approximately 4:1 in 2000 ([[tombe-zhu-2019-trade-migration-china]]), and the cross-province dispersion of nominal GDP per worker substantially exceeded that across U.S. states. Within provinces, the gap between agricultural and non-agricultural sectors was even starker: the average ratio of real GDP per worker in non-agriculture relative to agriculture was also around 4:1 within a province, reflecting both productivity differentials and the barriers that prevented workers from moving out of agriculture. The large within-sector income gaps across provinces — even after controlling for price differences between rural and urban areas — pointed to significant frictions in both goods and labor markets as the fundamental drivers of persistent spatial inequality ([[tombe-zhu-2019-trade-migration-china]]; [[ma-tang-2020-geography-trade]]).
+
+### Migration Barriers as Determinants of Spatial Inequality
+
+The hukou (household registration) system is the largest and most consequential migration barrier in modern China. Each citizen is assigned a hukou in a specific location and category (agricultural or non-agricultural), and changing either requires government approval. Before the economic reforms, working outside one's hukou location was prohibited; after the 1980s, the prohibition was relaxed but replaced by a system in which migrants without local hukou face restricted access to public services, higher costs for healthcare and children's education, and limited employment rights ([[tombe-zhu-2019-trade-migration-china]]; [[wu-you-2025-urbanization]]).
+
+Tombe and Zhu (2019) estimate that the average cost of moving from rural to urban areas within a province in 2000 was equivalent to shrinking one's real income by a factor of nearly three; between-province moves were an order of magnitude more costly. These costs trap labor in low-productivity regions and sectors. In their decomposition, migration contributed approximately 11% to aggregate labor productivity growth between 2000 and 2005, with roughly 90% of these gains coming from the reallocation of labor from agriculture to non-agriculture rather than from equalization across locations. The implication is that the largest productivity gains from migration liberalization come from moving workers out of agriculture, not from narrowing inter-regional income gaps.
+
+Wu and You (2025) estimate that the overall hukou system in China created an average GDP loss of 13.6% and a welfare loss of 4.7% averaged across the period 2000–2020. Their counterfactual analysis shows that it is generally welfare-reducing to restrict the population size of any city through internal migration restrictions, because the positive effects of greater labor mobility almost always dominate the negative effects of allowing potentially oversized cities to grow further. However, this aggregate result masks important distributional consequences that the headline statistics do not capture.
+
+### Firm-Level Frictions and the Spatial Distribution of Distortions
+
+Spatial inequality in China is not only a story of migration barriers keeping workers away from productive regions. Firm-level frictions — output and labor wedges that distort firm decisions within each location — are themselves spatially distributed in a way that amplifies income disparities. Li, Ma, and Tang (2024) estimate that the dispersion of output and labor wedges is systematically higher in poorer prefectures: the median standard deviation of output frictions is 0.086–0.084 in the richest coastal regions but 0.108 in inland and poorer regions. Moreover, the correlation between frictions and productivity is substantially higher in poor regions (0.242) than in coastal regions (near zero), meaning that the most productive firms in poor regions face the highest distortions. These spatial patterns in the friction distributions explain approximately 13% of the observed cross-prefecture variation in per-capita GDP ([[li-ma-tang-2024-migration-misallocation]]).
+
+Crucially, policies that reduce this dispersion of firm-level frictions reduce spatial inequality — the opposite of what migration liberalization does. When friction dispersion falls, poorer prefectures benefit more because they start from a position of higher dispersion, encouraging firm entry and attracting population inflows that narrow the welfare gap with richer regions.
+
+### The Migration-Misallocation Interaction
+
+The most striking finding in this literature is that migration and firm-level misallocation interact in opposing ways for aggregate welfare versus spatial equity. Li, Ma, and Tang (2024) show that reducing the dispersion of firm-level frictions by 0.01 raises aggregate welfare by 3.19% and reduces the Gini coefficient of real wages by 0.3%. When they achieve the same 3.19% welfare gain through migration liberalization instead, the Gini coefficient **increases** by 0.002. Migrants move to richer, less-distorted prefectures, and the resulting population concentration amplifies productivity advantages through agglomeration.
+
+To isolate the interaction, they compare the effects of friction reduction with and without internal migration. Without migration, the same friction reduction yields a larger welfare gain (3.37% vs. 3.19%) because workers cannot escape distorted regions, making within-prefecture improvements more consequential. However, without migration, the reduction in spatial inequality is smaller (Gini declines by 0.25 vs. 0.30). Migration itself is a channel through which spatial inequality manifests: by allowing workers to leave heavily distorted (poor) regions for less distorted (rich) ones, migration acts as a safety valve for aggregate welfare but an amplifier of spatial disparities ([[li-ma-tang-2024-migration-misallocation]]).
+
+> **Cross-pattern observation:** The opposing effects of migration liberalization and misallocation reduction on spatial inequality are robust across multiple model specifications in Li, Ma, and Tang (2024), including alternative values for congestion elasticity ($\psi$), migration elasticity ($\kappa$), and the elasticity of substitution ($\varepsilon$). The qualitative pattern — that factor mobility substitutes for productivity policy at the aggregate level but opposes it at the distributional level — has been corroborated by related findings in the dynamic QSE literature ([[kleinman-liu-redding-2023-dynamic-spatial]]).
+
+### The Agglomeration Channel
+
+The reason migration to productive regions worsens spatial inequality lies partly in agglomeration economies. When migrants move to productive cities, they increase density, which raises productivity through knowledge spillovers, labor-market pooling, and input-sharing. Ma and Tang (2020) show that the local impacts of migration are positive: destination cities benefit from migrant inflows because endogenous firm entry expands the variety of available goods and lowers prices, dominating the negative effects of congestion on nominal wages. Over 2000–2005, the 40 cities that received net population inflows experienced a 4.7% increase in real income and a 4.0% increase in welfare after accounting for congestion disutility.
+
+However, Wu and You (2025) reveal a critical tension: most large Chinese cities have already surpassed their **locally optimal** sizes — the size that maximizes average welfare for their own residents — but remain below their **nationally optimal** sizes. When these cities restrict migration to protect local welfare, they lower national welfare. Conversely, when migration barriers are removed, the resulting inflow of workers (especially low-skilled workers, who are disproportionately affected by hukou restrictions) depresses local welfare for natives in the most productive cities through three channels: crowding in access to local publicly-provided private goods (education, healthcare), rising housing prices, and dilution of land-rent income shares ([[wu-you-2025-urbanization]]). The agglomeration channel thus creates a virtuous cycle for receiving cities and a vicious cycle for sending regions, widening spatial inequality even as it raises national output.
+
+### Counterfactual Policy Analysis
+
+The QSE literature has explored several counterfactual policy scenarios that illuminate the trade-offs between efficiency and spatial equity:
+
+**Full hukou liberalization.** Removing all hukou restrictions since 2000 would raise national GDP by an average of 13.6% and welfare by 4.7% over 2000–2020 ([[wu-you-2025-urbanization]]). Tier-1 cities would absorb massive population inflows (87.6% increase), while tier-3 cities would lose 9.1% of their population. Natives in tier-1 cities would experience welfare declines of 10–17%, while migrants would gain 5–8%, creating a sharp distributional divide. The gains are front-loaded: GDP rises 23.3% in 2000 but only 4.3% by 2020, as diminishing returns to labor reallocation set in.
+
+**Misallocation reduction (SOE reform, financial market development).** Reducing the dispersion of firm-level frictions across all prefectures simultaneously raises aggregate welfare and reduces spatial inequality ([[li-ma-tang-2024-migration-misallocation]]). This policy is especially effective in poor regions, which face higher initial distortion levels and thus benefit disproportionately from uniform reductions.
+
+**Targeted migration liberalization with complementary policies.** Wu and You (2025) find that increasing the price elasticity of urban land supply has the largest effect among policies that could relieve the tension between local and national welfare. However, the scarcity of developable land in the most productive sites acts as a fundamental constraint, limiting the scope for land-supply reform to fully resolve the efficiency-equity trade-off.
+
+**Transport infrastructure and digital infrastructure.** Reductions in internal trade costs produce larger aggregate welfare gains than reductions in external trade costs — 11.4% vs. 2.9% in the Tombe-Zhu framework — because most provinces trade more with other Chinese provinces than with the rest of the world ([[tombe-zhu-2019-trade-migration-china]]). Network infrastructure, by lowering the digital divide between regions, can also reduce spatial inequality by enabling lagging regions to access markets and services more effectively ([[liu-zhang-cai-2026-network-infrastructure]]).
+
+> **Current wiki assessment (2026-07):** The literature has not identified a single policy that simultaneously maximizes aggregate welfare and minimizes spatial inequality in China. Migration liberalization delivers large aggregate gains but worsens spatial inequality. Misallocation reduction improves both dimensions but addresses a different margin. The emerging consensus is that policy packages combining migration liberalization with compensatory fiscal transfers to lagging regions, investments in firm-level productivity in poor regions, and land-supply reform in productive cities are necessary to manage the efficiency-equity trade-off. The quantitative calibration of such a package — the optimal mix of policies and the magnitude of required transfers — remains an open question.
+
+### Cross-Country Perspective on Spatial Inequality and Migration
+
+China's spatial inequality is large by international standards. The cross-province dispersion of GDP per worker in China substantially exceeds that across U.S. states, where internal migration rates are far higher. Tombe and Zhu (2019) estimate that lowering migration costs in China to achieve a one-third inter-provincial migrant share (comparable to the U.S.) would raise real GDP by 12.8% and welfare by 45.6%. The welfare gains are especially large because lower migration costs directly increase the welfare of migrants, beyond the indirect effects through productivity.
+
+Institutional differences in land markets play a key role. The collective ownership of rural land in China — combined with the lack of a rental market — means that migrants who leave their hukou location lose access to land-based benefits, an institutional feature that is absent in countries with well-developed land markets. Tombe and Zhu estimate that land reform allowing migrants to retain land ownership rights regardless of residency would increase the migrant stock substantially and yield a welfare gain of nearly 12%.
+
+Dynamic considerations also matter. Kleinman, Liu, and Redding (2023) show, in a U.S. context, that the interaction between capital accumulation and migration dynamics shapes the speed of income convergence, with an average half-life of around 20 years. Adding spatial migration to macro models reduces the speed of convergence ([[zhao-chen-fu-2022-dynamic-qse-china]]), because workers move toward initially productive regions rather than toward regions where their marginal product is highest in the long run. This dynamic perspective suggests that the short-run distributional effects of migration liberalization (winners and losers) may persist for decades.
+
+### Frontier: QSE Policy Translation for China
+
+The synthesis of firm-level frictions, migration barriers, and agglomeration economies carries direct implications for the design of China's "common prosperity" agenda. The central challenge is the tension between aggregate efficiency and spatial equity: migration liberalization raises national income but increases spatial inequality, while misallocation reduction improves both but addresses only one side of the problem.
+
+Four policy areas emerge as priorities for future research and policy design. First, **policy packages that combine multiple instruments** are essential. A package that pairs hukou reform with SOE reform and financial deepening in lagging regions could achieve the welfare gains of migration liberalization while offsetting its distributional costs through productivity improvements in poorer areas ([[li-ma-tang-2024-migration-misallocation]]). Second, **fiscal compensation mechanisms** need calibration: the welfare losses for natives in tier-1 cities from full hukou liberalization (10–17%) would require substantial compensation, whether through central government transfers, local land-rent redistribution, or investments in public goods capacity ([[wu-you-2025-urbanization]]). Third, **digital infrastructure** offers a novel channel for reducing spatial inequality by lowering trade costs for lagging regions without requiring physical relocation of workers; the narrowing of the digital divide across Chinese cities has already produced measurable welfare improvements, and further investments could complement traditional place-based policies ([[liu-zhang-cai-2026-network-infrastructure]]). Fourth, the emerging **data market integration** agenda — building a unified national data market to reduce the fragmentation that currently limits the non-rival benefits of data — could disproportionately benefit interior regions that have comparative advantage in data production, further diversifying the set of available spatial-equity instruments ([[lin-liu-zhou-2026-data-market]]).
+
+> **Current wiki assessment (2026-07):** The degree to which digital infrastructure investments and data market integration have been successful in reducing spatial inequality in practice is still being evaluated. Early evidence from the network infrastructure literature ([[liu-zhang-cai-2026-network-infrastructure]]) suggests positive effects on reducing the digital divide, but the general equilibrium effects — whether improved connectivity primarily promotes out-migration from lagging regions (which may worsen their decline) or attracts investment (which may rejuvenate them) — remain context-dependent and are an active area of research.
+
+### Cross-Links
+
+**Concepts:**
+- [[economics-of-the-hukou-system]]
+- [[quantitative-spatial-equilibrium]]
+- [[local-employment-elasticities-and-commuting]]
+
+**Mechanisms:**
+- [[firm-level-frictions-and-spatial-misallocation]]
+- [[welfare-effects-of-migration-in-chinese-cities]]
+- [[capital-labor-dynamics-and-spatial-convergence]]
+- [[endogenous-infrastructure-and-spatial-development]]
+
+**Debates:**
+- [[government-and-urbanization]]
+
+**Synthesis:**
+- [[trade-and-migration-cost-reductions-in-china]]
+- [[network-infrastructure-and-market-integration]]
+
+**Major sources:**
+- [[li-ma-tang-2024-migration-misallocation]]
+- [[wu-you-2025-urbanization]]
+- [[tombe-zhu-2019-trade-migration-china]]
+- [[ma-tang-2020-geography-trade]]

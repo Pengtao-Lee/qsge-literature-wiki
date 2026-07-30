@@ -1,0 +1,112 @@
+---
+title: "Gravity in Spatial Economics"
+type: concept
+status: active
+papers:
+  - allen-arkolakis-2014-trade-topography
+  - redding-rossi-hansberg-2017-quantitative-spatial
+  - monte-redding-rossi-hansberg-2018-commuting
+  - kleinman-liu-redding-2023-dynamic-spatial
+  - tombe-zhu-2019-trade-migration-china
+  - ma-tang-2020-geography-trade
+  - lin-liu-zhou-2026-data-market
+tags:
+  - gravity equation
+  - trade elasticity
+  - commuting
+  - migration
+  - spatial economics
+---
+
+# Gravity in Spatial Economics
+
+The gravity equation in spatial economics states that bilateral flows — whether of goods, migrants, or daily commuters — between two locations are proportional to the product of their economic masses (typically population, employment, or total expenditure) and inversely proportional to some measure of distance or friction between them. In quantitative spatial models, gravity is not an empirical approximation but a structural relationship derived from underlying assumptions about preferences (CES or Fréchet), technology (constant-returns Armington, Ricardian Eaton-Kortum, or monopolistic competition with firm heterogeneity), and the distribution of idiosyncratic shocks. The trade elasticity parameter that governs the slope of the gravity relationship is the single most important structural parameter in quantitative spatial equilibrium (QSE) models, as it governs the sensitivity of all equilibrium outcomes to changes in trade costs and appears as a sufficient statistic in welfare formulae.
+
+## Gravity in Goods Trade: Structural Foundations
+
+The gravity equation for goods trade arises from three distinct microfoundations, each yielding the same reduced-form relationship but giving different structural interpretations to the key elasticity parameter. Under the **Armington** assumption — goods differentiated by location of origin with perfect competition — [[allen-arkolakis-2014-trade-topography]] derives the gravity equation from CES preferences:
+
+$$ X(i,j) = \left(\frac{T(i,j)w(i)}{A(i)P(j)}\right)^{1-\sigma} w(j)L(j), $$
+
+where $X(i,j)$ is the value of trade from $i$ to $j$, $T(i,j)$ is the iceberg trade cost, $\sigma$ is the elasticity of substitution between varieties, $w(i)/A(i)$ is the marginal cost of production, and $P(j)$ is the CES price index capturing multilateral resistance. The trade elasticity here is $\sigma-1$: the elasticity of bilateral trade with respect to trade costs.
+
+Under the **Eaton-Kortum** Ricardian framework, countries draw productivities for each variety from a Fréchet distribution with shape parameter $\theta$, and the trade elasticity is $\theta$ — reflecting the dispersion of productivity draws rather than the substitutability of varieties. [[tombe-zhu-2019-trade-migration-china]] employs this framework for China's internal trade, estimating internal trade costs that fell by 10–15% between 2002 and 2007, with the gravity equation providing the identifying variation.
+
+Under **monopolistic competition with firm heterogeneity** (Melitz), the gravity relationship includes additional terms reflecting firm selection into exporting. [[ma-tang-2020-geography-trade]] develops a Melitz-based QSE variant for Chinese cities, in which the aggregate gravity elasticity combines both the intensive margin (existing exporters ship more) and the extensive margin (new firms enter export markets). The extensive margin amplifies the aggregate trade response to cost changes, and this amplification varies with the dispersion of firm productivities.
+
+> **Cross-pattern (2026-07):** Despite their different microfoundations, the Armington, Eaton-Kortum, and Melitz frameworks all produce the same gravity functional form for aggregate trade flows, and the same welfare formula in terms of the domestic trade share (Arkolakis, Costinot, and Rodriguez-Clare 2012). The frameworks diverge only in predictions about margins that the aggregate gravity equation does not capture — such as the distribution of trade across firms or the response of variety to trade liberalization. This convergence is a central theme across the QSE literature ([[redding-rossi-hansberg-2017-quantitative-spatial]]).
+
+## The Trade Elasticity Parameter
+
+The trade elasticity — the parameter governing the slope of the gravity equation — is the central structural parameter in QSE models because it scales the welfare gains from trade and the sensitivity of all equilibrium outcomes to trade cost changes. In the Armington model, the trade elasticity is $\sigma-1$, estimated from price and expenditure data. [[redding-rossi-hansberg-2017-quantitative-spatial]] adopts a value of $\sigma = 4$ in their quantitative illustration, implying a trade elasticity of 3, while [[allen-arkolakis-2014-trade-topography]] uses $\sigma = 9$ (trade elasticity of 8), calibrated to Eaton and Kortum (2002). In the Eaton-Kortum framework, the trade elasticity $\theta$ is estimated from the cross-sectional relationship between trade flows and trade costs; typical estimates range from 4 to 8 for goods trade ([[tombe-zhu-2019-trade-migration-china]]).
+
+The trade elasticity determines the sufficient-statistics formula for welfare gains from trade. In any QSE model satisfying the gravity structure, the welfare gain from moving from autarky to the observed trade equilibrium is $\hat{W} = \pi_{nn}^{-1/(\sigma-1)}$ in the Armington case or $\hat{W} = \pi_{nn}^{-1/\theta}$ in the Eaton-Kortum case, where $\pi_{nn}$ is the domestic trade share ([[redding-rossi-hansberg-2017-quantitative-spatial]]). This parameter is also the key determinant of the spatial responsiveness of populations and wages to changes in trade costs: a higher trade elasticity means locations adjust more to a given reduction in trade frictions.
+
+## Gravity in Commuting
+
+The gravity structure extends naturally to commuting flows when workers have idiosyncratic preferences for residence-workplace pairs drawn from a Fréchet distribution. [[monte-redding-rossi-hansberg-2018-commuting]] derives the conditional commuting probability:
+
+$$ \lambda_{ni|n}^{R} = \frac{B_{ni}(w_i / \kappa_{ni})^{\epsilon}}{\sum_{s \in N} B_{ns}(w_s / \kappa_{ns})^{\epsilon}}, $$
+
+where $\lambda_{ni|n}^{R}$ is the probability that a resident of location $n$ commutes to workplace $i$, $B_{ni}$ captures average amenities of the commute pair, $\kappa_{ni}$ is the iceberg commuting cost, and $\epsilon$ is the Fréchet shape parameter — the commuting elasticity. This equation exhibits exactly the same gravity form as goods trade: the bilateral flow depends on the attractiveness of the destination (wage $w_i$) and the bilateral friction ($\kappa_{ni}$), relative to a multilateral resistance term capturing all alternative workplaces.
+
+A key empirical finding is that the commuting distance elasticity is substantially higher than the trade distance elasticity. [[monte-redding-rossi-hansberg-2018-commuting]] estimates the composite commuting distance coefficient at $-4.43$, compared to $-1.29$ for goods trade. This difference aligns with the intuition that moving people is more costly than moving goods across geographic space. The commuting elasticity $\epsilon$ is estimated at approximately 3.30, substantially smaller than typical trade elasticities, implying that commuting flows are less sensitive to economic incentives than trade flows — a result with direct implications for local employment responses to labor demand shocks.
+
+## Gravity in Migration
+
+The same Fréchet-based gravity structure governs migration flows, with a crucial difference: migration involves permanent relocation rather than daily commuting, and therefore depends on expected future utility rather than just current wages. In static QSE models, the gravity equation for migration has the same form as for commuting, with migration costs playing the role of commuting costs ([[redding-rossi-hansberg-2017-quantitative-spatial]]).
+
+[[tombe-zhu-2019-trade-migration-china]] applies the Eaton-Kortum gravity framework to estimate migration costs in China, finding that the average cost of rural-to-urban migration within a province in 2000 was equivalent to shrinking real income by a factor of nearly three, with between-province moves an order of magnitude more costly. These enormous frictions explain why, despite large income differentials, only 4.2% of Chinese workers migrated across provinces in 2000. The gravity equation for migration provides the identifying variation for these cost estimates.
+
+In dynamic settings, migration gravity inherits a forward-looking component. [[kleinman-liu-redding-2023-dynamic-spatial]] incorporates forward-looking migration decisions with capital accumulation, showing that the gravity structure for migration flows is preserved but now depends on expected continuation values rather than current utility alone. Their dynamic exact-hat algebra extends the Dekle-Eaton-Kortum approach to accommodate this intertemporal dimension, solving for transition paths using only observed migration shares and structural parameters.
+
+## Bilateral vs. Multilateral Resistance
+
+A distinctive feature of structural gravity in QSE models — distinguishing it from reduced-form gravity regressions — is the presence of multilateral resistance terms. In the goods trade gravity equation, the denominator $P(j)$ (the CES price index) captures the fact that location $j$ imports from all potential suppliers, not just $i$. This means that a change in trade costs between locations $i$ and $j$ affects not only their bilateral trade but also trade between all other pairs through general equilibrium adjustments in the price index ([[redding-rossi-hansberg-2017-quantitative-spatial]]; [[allen-arkolakis-2014-trade-topography]]).
+
+The same logic applies to commuting and migration gravity: the denominator $\sum_s B_{ns}(w_s/\kappa_{ns})^{\epsilon}$ captures the attractiveness of all alternative workplaces. A transport improvement that reduces commuting costs to one employment center also reduces the relative attractiveness of all other centers, potentially drawing commuters away from them. This interdependence is what makes reduced-form estimation of gravity relationships potentially misleading for policy: the treatment effect of a transport improvement depends on the broader network structure, not just on the improved link.
+
+> **Cross-pattern (2026-07):** The multilateral resistance structure provides an explanation for the "distance puzzle" — the observation that the estimated distance coefficient in gravity regressions has not declined over time despite declining transport costs. In structural gravity, the distance coefficient reflects both the direct effect of bilateral distance and the general equilibrium effect of changing remoteness, and these two forces can move in opposite directions as transport networks expand ([[redding-rossi-hansberg-2017-quantitative-spatial]]).
+
+## Empirical Gravity: Estimation and Identification
+
+Structural gravity estimation in QSE models typically proceeds in two steps. First, the gravity equation is estimated using origin-destination fixed effects to absorb multilateral resistance, yielding consistent estimates of the trade elasticity from the coefficient on bilateral trade costs. [[allen-arkolakis-2014-trade-topography]] implements a sophisticated variant that combines geographic information system (GIS) data on transportation networks with the fast-marching method to construct mode-specific trade costs, then uses a discrete-choice framework to estimate the relative costs of road, rail, water, and air transport. The estimated geographic trade costs predict 65% of the variation in observed bilateral trade flows from the Commodity Flow Survey.
+
+Second, the estimated trade costs and trade elasticity are used within the structural model to recover unobserved fundamentals (productivities, amenities) and to compute counterfactuals. [[tombe-zhu-2019-trade-migration-china]] applies this approach to China's internal trade, using data from inter-regional input-output tables for 2002 and 2007. They find that internal trade costs fell by 10–15% over this period, driven by policy reforms that reduced local market protections and by infrastructure investments.
+
+A recurring challenge in empirical gravity estimation is the endogeneity of trade costs: transportation networks are not randomly assigned but are typically built where trade volumes are already large. [[allen-arkolakis-2014-trade-topography]] mitigates this by using a discrete-choice framework that estimates travel cost parameters from mode-specific trade shares (the fraction of trade between a given origin-destination pair that travels by road vs. rail), which controls for the overall level of bilateral trade through what amounts to an origin-destination fixed effect. Nevertheless, endogeneity concerns remain for the relative mode-specific shares.
+
+> **Current assessment (2026-07):** The identification of the trade elasticity from cross-sectional gravity faces an inherent challenge: observed trade flows are jointly determined by trade costs and the trade elasticity. A given pattern of trade can be rationalized with high trade costs and a high elasticity or low trade costs and a low elasticity. Estimating the trade elasticity separately requires additional variation — either from time-series changes in trade costs (as in Tombe-Zhu's use of panel data) or from micro-level price data.
+
+## Methodological Diversity and the Gravity Slope
+
+The fact that the same gravity equation arises from different microfoundations means that the trade elasticity has different structural interpretations across models. In the Armington model, it is the elasticity of substitution between varieties; in the Eaton-Kortum model, it is the dispersion of productivity draws; in the Melitz model, it combines both the intensive and extensive margins of trade. These different interpretations matter for counterfactual predictions along margins beyond aggregate trade flows — such as the response of the measure of varieties or the distribution of firm sizes to trade liberalization ([[redding-rossi-hansberg-2017-quantitative-spatial]]; [[ma-tang-2020-geography-trade]]).
+
+[[ma-tang-2020-geography-trade]] demonstrates that the Melitz-based QSE model generates different welfare predictions from Eaton-Kortum for the same aggregate trade elasticity, because the extensive margin of firm entry amplifies the welfare effects of trade cost reductions in locations with more favorable productivity distributions. This divergence is largest for counterfactuals involving large changes in trade costs, where selection effects are strongest.
+
+## Open Questions
+
+Several frontiers remain in gravity analysis. In dynamic settings with forward-looking migration, the gravity structure becomes time-dependent, with current migration flows depending on expectations of future wages and amenities as well as current frictions ([[kleinman-liu-redding-2023-dynamic-spatial]]). The extension of gravity to non-rival data flows, as explored by [[lin-liu-zhou-2026-data-market]], raises new questions about the appropriate structural form when the good being traded is non-rival and can be replicated at zero marginal cost. Finally, the estimation of gravity in the presence of firm heterogeneity and selection bias — where only firms that export appear in the trade data — remains a methodologically active area, with implications for the interpretation of estimated trade elasticities.
+
+## Cross-links
+
+**Concepts:**
+- [[quantitative-spatial-equilibrium]] — the general-equilibrium architecture within which gravity equations are embedded
+- [[local-employment-elasticities-and-commuting]] — commuting gravity and heterogeneous labor supply responses
+- [[economics-of-the-hukou-system]] — migration frictions in China estimated through migration gravity
+- [[data-as-a-non-rival-factor-in-spatial-models]] — extending gravity to non-rival data flows
+
+**Mechanisms:**
+- [[endogenous-infrastructure-and-spatial-development]] — how infrastructure investments shift the gravity relationship
+- [[welfare-effects-of-migration-in-chinese-cities]] — welfare implications of migration gravity in urban China
+
+**Synthesis:**
+- [[trade-and-migration-cost-reductions-in-china]] — gravity-based decomposition of China's productivity growth
+- [[network-infrastructure-and-market-integration]] — gravity estimates of infrastructure's impact on market access
+
+**Major sources:**
+- [[allen-arkolakis-2014-trade-topography]]
+- [[redding-rossi-hansberg-2017-quantitative-spatial]]
+- [[monte-redding-rossi-hansberg-2018-commuting]]
+- [[tombe-zhu-2019-trade-migration-china]]
+- [[ma-tang-2020-geography-trade]]

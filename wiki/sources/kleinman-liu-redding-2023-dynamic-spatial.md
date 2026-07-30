@@ -1,0 +1,114 @@
+---
+title: "Dynamic Spatial General Equilibrium"
+type: source
+authors:
+  - Benny Kleinman
+  - Ernest Liu
+  - Stephen J. Redding
+year: 2023
+slug: kleinman-liu-redding-2023-dynamic-spatial
+tags:
+  - spatial_economics
+  - economic_geography
+  - migration
+  - capital_accumulation
+  - dynamic_general_equilibrium
+  - trade
+  - convergence
+raw_markdown: raw_markdown/papers/kleinman-liu-redding-2023-dynamic-spatial.md
+status: draft
+---
+
+# Dynamic Spatial General Equilibrium (2023)
+
+> **Paper claim** — Develops a tractable framework incorporating forward-looking capital accumulation into a dynamic discrete choice model of migration, overcoming the high-dimensional state space problem, and provides analytical characterization of the transition path via spectral analysis.
+
+Raw markdown: [[raw_markdown/papers/kleinman-liu-redding-2023-dynamic-spatial]]
+
+## Research Question
+
+How do forward-looking capital accumulation and migration frictions interact to shape the spatial distribution of economic activity in response to fundamental shocks (productivity, amenities), and what explains the observed decline in income convergence across U.S. states?
+
+## Model / Experimental Design
+
+**Agents and setting:** Economy with N locations, discrete time, two types of infinitely-lived agents. Workers are geographically mobile (subject to migration costs), live hand-to-mouth, and supply labor inelastically. Landlords are geographically immobile, own the local capital stock (buildings and structures), and make forward-looking consumption-investment decisions.
+
+**Production:** Single-sector Armington (1969) trade model with perfect competition, constant returns to scale Cobb-Douglas technology: $y_{it} = z_{it}(\ell_{it}/\mu)^\mu(k_{it}/(1-\mu))^{1-\mu}$, where $\mu=0.65$ is the labor share. Iceberg trade costs $\tau_{nit} \geq 1$.
+
+**Worker preferences:** CES preferences over varieties ($\theta = 5$, the trade elasticity). Dynamic discrete choice migration with extreme-value idiosyncratic mobility shocks (scale parameter $\rho = 3\beta$). Value function: $\mathbb{V}_{it}^w = \ln u_{it}^w + \max_g\{\beta\mathbb{E}_t[\mathbb{V}_{gt+1}^w] - \kappa_{git} + \rho\epsilon_{gt}\}$.
+
+**Capital accumulation:** Landlords maximize intertemporal utility with discount factor $\beta = (0.95)^5$ and intertemporal elasticity of substitution $\psi$ (baseline $\psi=1$, log utility). Capital depreciates at annual rate 5% ($\delta = 1-(0.95)^5$). Landlords can invest only in their own location. A key result (Lemma 1): landlords have a linear saving rate out of current wealth, $k_{it+1} = (1-\mathfrak{s}_{it})R_{it}k_{it}$, where the saving rate is endogenous and forward-looking.
+
+**Key simplifying assumption:** Workers cannot invest (hand-to-mouth); landlords cannot migrate. This avoids tracking the full sequence of locations for intertemporal decisions, solving the high-dimensional state space problem.
+
+**Equilibrium concept (Definition 1):** Given initial state variables $\{\ell_{i0}, k_{i0}\}$, an equilibrium is a stochastic process of wages, capital returns, expected values, worker masses, and capital stocks measurable with respect to fundamental shocks, solving the value function, population flow condition, goods market clearing, and capital accumulation.
+
+**Data:** BEA national economic accounts for 48 contiguous U.S. states + DC (1965-2015); 5-year bilateral migration flows from U.S. Census and ACS; bilateral shipments from Commodity Flow Survey and Commodity Transportation Survey.
+
+**Spectral analysis method:** Linearize the model around the unobserved steady state. The solution reduces to $\widetilde{x}_{t+1} = P\widetilde{x}_t + R\widetilde{f}$, where $P$ is the $2N\times 2N$ transition matrix and $R$ is the impact matrix, both functions only of observed trade/migration shares and structural parameters. Eigendecomposition of $P$ gives eigenvalues $\{\lambda_h\}$ and eigenvectors $\{u_h\}$.
+
+## Main Results
+
+1. **Steady-state existence and uniqueness (Proposition 1):** A sufficient condition is that the spectral radius of a coefficient matrix $A$ of model parameters $\{\psi,\theta,\beta,\rho,\mu,\delta\}$ is $\leq 1$.
+
+2. **Dynamic exact-hat algebra (Proposition 2):** Given an initial observed allocation and a convergent sequence of future changes in fundamentals, the transition path can be solved without knowing the level of fundamentals — generalizing Caliendo, Dvorkin, and Parro (2019) to incorporate investment.
+
+3. **Spectral representation (Proposition 4):** The transition path of state variables in response to any empirical shock can be written as a linear combination of eigenshocks: $\widetilde{x}_t = \sum_{h=2}^{2N} \frac{1-\lambda_h^t}{1-\lambda_h} u_h a_h$, where $a_h$ are loadings from a regression of the empirical shock on the eigenshocks.
+
+4. **Speed of convergence (Proposition 5):** For an eigenshock, the half-life is $t_h^{(1/2)} = -\lceil \ln 2 / \ln \lambda_h \rceil$, depending solely on the associated eigenvalue.
+
+5. **Income convergence decline:** The correlation between 10-year-ahead income growth and initial income per capita fell from -0.0257 (1963-1980) to -0.0148 (1980-2000) to +0.0076 (2000-2017). Initial conditions (not fundamental shocks) explain most of this decline.
+
+6. **Half-lives:** Average ~20 years, maximum ~80 years across the spectrum of eigenshocks.
+
+7. **Capital vs. migration contributions:** Both matter, but capital accumulation is more important for income per capita dynamics. However, migration is central to matching observed population share changes.
+
+8. **Michigan productivity shock (15% decline):** Nonmonotonic dynamics for neighbors — initial population inflow, then gradual outflow below initial steady-state levels, driven by changing importance of fast vs. slow eigencomponents.
+
+9. **Comparative statics:** Slower convergence with lower $\psi$, higher $\beta$, lower $\mu$, lower tradable share, higher $\theta$. Higher migration elasticity (lower $\rho$) has ambiguous effects depending on correlation of labor and capital gaps.
+
+## Mechanisms Identified
+
+> **Paper claim** — Convergence to steady state is slow when capital and labor gaps from steady state are positively correlated across locations (both above or both below), because above-steady-state capital raises the marginal product of labor (dampening labor's downward adjustment) and above-steady-state labor raises the marginal product of capital (retarding capital's downward adjustment). Fast convergence occurs when these gaps are negatively correlated.
+
+Links: [[mechanism-capital-labor-interaction]], [[mechanism-spatial-convergence]]
+
+## Methods and Measures
+
+- **Dynamic exact-hat algebra** (generalized from Caliendo, Dvorkin, and Parro, 2019): Solves for transition paths using only observed endogenous variables and structural parameters, without needing the level of fundamentals.
+- **Spectral analysis**: Eigendecomposition of a $2N \times 2N$ transition matrix; eigenshocks as a basis spanning the shock space; half-life as a function of eigenvalues.
+- **Model inversion**: Recovers unobserved changes in productivity, amenities, trade costs, and migration costs from observed changes in endogenous variables along the transition path.
+- **Data construction**: Interpolation of 5-year migration flows between census decades; extrapolation of bilateral trade flows before 1977 using origin/destination income changes.
+
+Links: [[method-dynamic-exact-hat]], [[method-spectral-analysis-dynamic-spatial]]
+
+## Concepts Engaged
+
+- **Spatial dynamics** — forward-looking capital accumulation + migration in a multi-region setting
+- **Income convergence ($\beta$-convergence)** — decline in convergence rates across U.S. states from 1963-2017
+- **Eigenshock** — a shock whose initial impact on state variables equals an eigenvector of the transition matrix
+- **Persistent impact of local shocks** — slow adjustment (decades-long half-lives) rationalizes empirical findings like the China shock
+- **Nonmonotonic transition dynamics** — neighbors of a shocked region may first gain then lose population
+
+Links: [[concept-spatial-equilibrium]], [[concept-income-convergence]], [[concept-eigenshock]], [[concept-nonmonotonic-transition-dynamics]]
+
+## Connection to Debates
+
+> **Paper claim** — The interaction between capital accumulation and migration dynamics, rather than either force alone, is central to understanding both the decline in U.S. income convergence and the persistent heterogeneous impact of local shocks. Initial conditions (the 1965 spatial distribution of capital and labor relative to steady state) matter more than the pattern of subsequent fundamental shocks.
+
+Links: [[debate-income-convergence-determinants]], [[debate-persistence-of-local-shocks]]
+
+## Theoretical / Empirical Significance
+
+First paper to tractably incorporate forward-looking capital accumulation into a dynamic discrete choice migration model with many asymmetric locations, overcoming the high-dimensional state space that previously limited this class of models. Introduces spectral analysis as a tool for understanding transition dynamics in spatial models, providing closed-form sufficient statistics (the impact and transition matrices) that depend only on observed trade/migration shares and structural parameters. Demonstrates analytically that capital and labor dynamics systematically interact — a mechanism absent from models with only one source of dynamics. The finding that initial conditions dominate fundamental shocks in explaining the decline in U.S. income convergence (1970-2010) has implications for regional policy: the convergence slowdown is largely baked into the 1965 spatial distribution, not driven by post-1965 shocks.
+
+## Notes and Caveats
+
+- **Key simplifying assumption** (workers hand-to-mouth, landlords immobile) is necessary for tractability but may affect quantitative results. The paper shows small rental rate differences across locations along the transition path, consistent with the assumption.
+- **Baseline assumes trade balance**; extensions incorporate trade deficits (treated exogenously).
+- **Single-sector baseline abstracts from foreign trade** due to low U.S. trade openness in early sample period; multisector extension incorporates foreign trade for 1999-2015.
+- **Linearization** provides first-order approximation; the paper verifies similarity between linearized and nonlinear results but nonlinear effects could matter for large shocks.
+- **Baseline parameter values are assumed** from existing literature rather than internally estimated; comparative statics show sensitivity.
+- **Spectral analysis uses 1975 steady-state matrices** as the reference year; results are similar for other years.
+- **No housing or residential capital in baseline**; extension in Online Supplement S.4.7 allows residential capital use.
+- **No agglomeration forces in baseline**; extension in Section 4 and Online Supplement S.4.2 incorporates them.

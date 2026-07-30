@@ -1,0 +1,78 @@
+---
+title: "Spatial Innovation and Structural Transformation"
+type: mechanism
+status: active
+papers:
+  - desmet-rossi-hansberg-2014-spatial-development
+  - trew-2020-endogenous-infrastructure
+  - kleinman-liu-redding-2023-dynamic-spatial
+  - zhao-chen-fu-2022-dynamic-qse-china
+  - wu-you-2025-urbanization
+  - lin-liu-zhou-2026-data-market
+tags:
+  - endogenous growth
+  - structural transformation
+  - innovation
+  - spatial concentration
+  - services
+---
+
+# Spatial Innovation and Structural Transformation
+
+## Lead
+
+The spatial innovation mechanism describes how the geographic concentration of economic activity endogenously drives technological progress and sectoral reallocation in a growing economy. In this mechanism, firms in each location invest in innovation -- buying a probability of drawing a productivity improvement from a known distribution -- while technology diffuses spatially with distance decay between periods. The key proposition is that competition for the fixed local factor (land) and the one-period spatial diffusion of technology make the dynamic innovation problem reduce to a sequence of static decisions, rendering an otherwise intractable spatial growth model solvable. As the economy grows, non-homothetic preferences shift consumption from goods to services, while the spatial concentration of manufacturing (and later services) determines which locations innovate. Transport costs play a central and counterintuitive role: lower trade costs generate static gains but can reduce the density of agglomerations and thus slow the dynamic rate of innovation.
+
+## Theoretical Framework: A Spatial Endogenous Growth Model
+
+[[desmet-rossi-hansberg-2014-spatial-development]] develop a model with a continuum of locations on the unit interval, two sectors (manufacturing and services), and two factors (labor and land). Firms in each location choose how much to invest in innovation, with the cost of buying a probability $\phi$ of innovating given by $\psi(\phi) = w(\ell,t)\big(\psi_1 + \psi_2 / (1-\phi)\big)$. Conditional on innovating, firms draw a technology multiplier $z_i$ from a Pareto distribution with shape parameter $a$, so the expected technology after innovation is $E[Z_i^+] = (\phi/(a-1) + 1) Z_i^-$. Technology diffuses across space between periods with exponential decay: $Z_i^-(\ell,t) = \max_r e^{-\delta|\ell-r|} Z_i^+(r, t-1)$.
+
+This framework builds directly on the endogenous growth tradition but introduces a spatial dimension that is absent from standard models. The spatial concentration of production creates a scale effect in innovation: the optimal innovation probability is increasing in local employment, consistent with empirical evidence that a doubling of employment density raises patents per capita by approximately 20 percent (Carlino, Chatterjee, and Hunt, 2007). The presence of land as a fixed local factor provides the congestion force that prevents complete agglomeration, while trade costs and spatial technology diffusion determine the strength of the agglomeration forces.
+
+## The Static-Innovation Proposition
+
+The central analytical result of [[desmet-rossi-hansberg-2014-spatial-development]] is Proposition 1: a firm's optimal dynamic innovation decisions maximize only current-period profits. This result makes the dynamic spatial model solvable and computable while retaining rich empirical predictions. The reasoning has three parts. First, because labor is perfectly mobile and technology diffuses at the end of each period with exponential decay, the advantage a firm gains from innovating today dissipates by tomorrow -- competing firms in neighboring locations have access to the same technology through diffusion. Second, the land market ensures that expected profits are zero in equilibrium (firms bid for land until they break even), so the only benefit of innovation is the increase in the land rent the firm can offer in the current period. Third, given the spatial correlation of innovation draws and the continuity of the diffusion process, a firm's own innovation decisions do not affect the expected technology it wakes up with tomorrow, because neighboring firms' innovations will have diffused to it regardless.
+
+The contrast with other dynamic spatial approaches is instructive. [[kleinman-liu-redding-2023-dynamic-spatial]] model forward-looking capital accumulation by geographically immobile landlords -- a genuinely dynamic problem that requires solving for transition paths rather than reducing to static choices. [[zhao-chen-fu-2022-dynamic-qse-china]] survey the trade-off between these approaches, noting that the static-innovation simplification of Desmet and Rossi-Hansberg avoids the "curse of dimensionality" that plagues models combining forward-looking migration and investment, while the landlord-investor approach of Kleinman, Liu, and Redding preserves richer dynamics at the cost of greater computational complexity.
+
+## Structural Transformation Through Non-Homothetic Preferences
+
+The structural transformation from manufacturing to services in the Desmet-Rossi-Hansberg framework is driven by the interaction of differential innovation rates across sectors and non-homothetic preferences. The model uses CES preferences with an elasticity of substitution less than one (calibrated to 0.4, consistent with estimates in Stockman and Tesar, 1995). When manufacturing productivity grows faster than service productivity -- as it does initially because manufacturing firms have higher initial productivity and thus larger scale, making innovation more profitable -- the relative price of manufactured goods falls. With an elasticity of substitution below one, this price decline causes employment to shift toward the sector whose relative price is rising, namely services.
+
+This mechanism is the spatial analog of the structural transformation literature surveyed by Ngai and Pissarides (2007), but with two crucial differences. First, the reallocation of employment toward services is not exogenous but endogenously accelerates innovation in the service sector, because the growing scale of service-producing locations makes it profitable for service firms to invest in innovation. Second, the Baumol effect -- the fear that low productivity growth in services would lead to long-run stagnation -- fails to materialize because the structural transformation itself makes the service sector concentrated enough for innovation to take off endogenously. [[trew-2020-endogenous-infrastructure]] embeds a similar structural transformation mechanism (using Stone-Geary preferences with a subsistence agricultural requirement) together with endogenous infrastructure, adding a primary sector whose relative decline powers the early stages of industrialization.
+
+## Spatial Concentration and the Take-Off of Services Innovation
+
+The timing of the productivity acceleration in services is determined endogenously. In the calibrated model of [[desmet-rossi-hansberg-2014-spatial-development]], service productivity growth remains low from 1950 until the mid-1990s, then accelerates sharply. This acceleration coincides with three related spatial phenomena. First, the service sector becomes increasingly concentrated in space, with its spatial standard deviation approaching that of manufacturing by the 2000s. Second, the competition for land between manufacturing and service clusters intensifies, driving up the dispersion of land rents across locations. Third, the growing spatial concentration of services raises the scale of service-producing firms, making innovation profitable in locations that were previously too small to amortize the fixed costs of innovation.
+
+> *Cross-pattern observation:* The positive relationship between employment density and innovation in services, documented for the late twentieth century, mirrors the pattern found by Desmet and Rossi-Hansberg (2009) for manufacturing in the early twentieth century, suggesting that the link between spatial concentration and productivity growth is a general feature of sectors undergoing rapid innovation, regardless of the time period.
+
+The collocation of manufacturing and service clusters is a distinctive prediction of the model. Because goods are costly to transport, service-producing locations that are near manufacturing clusters have higher demand and thus larger scale, which makes them more likely to innovate. This implies that the service sector does not simply replace manufacturing in the same locations but instead clusters around the existing manufacturing belt. Over time, rising land costs in the cluster push manufacturing outward, and the two sectors' spatial distributions evolve together.
+
+## Empirical Application: United States, 1950--2005
+
+The calibrated model of [[desmet-rossi-hansberg-2014-spatial-development]] successfully reproduces several key features of the U.S. spatial and macroeconomic evolution over the postwar period. Quantitatively, it matches the declining manufacturing employment share, the timing and magnitude of the service productivity take-off in the mid-1990s, and the increase in both the level and dispersion of land rents between 1995 and 2005. Qualitatively, it accounts for the acceleration in wage growth after the mid-1990s and the increased spatial concentration of services.
+
+The dispersion of land rents is a particularly important diagnostic. Standard macroeconomic models without space can match aggregate land prices but cannot explain the geographic heterogeneity in those prices. In the spatial innovation model, the take-off of service productivity increases competition for land in locations where manufacturing and service clusters collocate, driving up land prices in those areas relative to locations farther from the cluster. The resulting increase in land-price dispersion is precisely what the data show: the standard deviation of log land prices across 40 U.S. metropolitan areas rose from 0.87 in 1995 to 1.07 in 2005.
+
+## Transport Costs, Agglomeration, and the Growth Trade-Off
+
+A counterintuitive result of the spatial innovation framework is that higher transport costs can generate dynamic gains that offset the standard static losses. [[desmet-rossi-hansberg-2014-spatial-development]] establish Proposition 3: for any level of transport costs such that aggregate productivity in an industry is stagnant, an increase in transport costs weakly increases aggregate productivity in that industry. The mechanism is that higher transport costs induce the lagging sector to locate more densely near the leading sector's cluster, increasing firm scale and making innovation profitable.
+
+In the model's comparative statics, lowering transport costs from the benchmark level of $\kappa = 0.08$ to $\kappa = 0.07$ reduces the present discounted value of utility from 2.64 to 2.36. This occurs because lower transport costs weaken agglomeration forces, dispersing economic activity and reducing the scale of service-producing firms, which delays the take-off of service innovation. The welfare comparison illustrates a "second-best" logic: profits from innovation last only one period before being arbitraged away, creating an externality; higher transport costs bring the economy closer to its social optimum by increasing clustering and innovation, though at the cost of losing resources to transportation.
+
+> **Current assessment (2026-07):** Whether the static losses or dynamic gains from transport cost reductions dominate in practice remains an unresolved empirical question. The Desmet-Rossi-Hansberg framework suggests that the net effect depends on the initial spatial distribution of economic activity and the strength of scale effects in innovation, but direct empirical tests are scarce because transport costs and innovation outcomes are jointly determined.
+
+## Connections to Dynamic QSE and Chinese Applications
+
+The spatial innovation mechanism provides a foundation for several extensions in the dynamic quantitative spatial equilibrium literature surveyed by [[zhao-chen-fu-2022-dynamic-qse-china]]. [[kleinman-liu-redding-2023-dynamic-spatial]] develop a complementary framework in which forward-looking capital accumulation replaces the static-innovation simplification, allowing the analysis of transitional dynamics in response to productivity and amenity shocks. The choice between these approaches depends on the research question: the static-innovation framework is better suited for long-run growth and structural transformation over centuries, while the forward-looking capital framework captures medium-run convergence dynamics over decades.
+
+For China, the spatial innovation mechanism is relevant for understanding the relationship between city size and innovation documented by [[wu-you-2025-urbanization]], who find that agglomeration externalities in production create an inverted-U relationship between city size and welfare. [[lin-liu-zhou-2026-data-market]] extend the spatial innovation logic to incorporate data as a non-rival factor that amplifies innovation incentives, providing a framework for understanding the role of digital platforms and data markets in China's ongoing structural transformation. The spatial concentration of services innovation observed in the U.S. after 1995 may provide a template for understanding the emergence of innovation clusters in Chinese service sectors as the economy shifts from manufacturing-driven to service-driven growth.
+
+## Cross-links
+
+- Concepts: [[quantitative-spatial-equilibrium]], [[data-as-a-non-rival-factor-in-spatial-models]]
+- Mechanisms: [[endogenous-infrastructure-and-spatial-development]], [[capital-labor-dynamics-and-spatial-convergence]], [[firm-level-frictions-and-spatial-misallocation]]
+- Debates: [[government-and-urbanization]]
+- Synthesis: [[trade-and-migration-cost-reductions-in-china]]
+- Major sources: [[desmet-rossi-hansberg-2014-spatial-development]], [[trew-2020-endogenous-infrastructure]], [[kleinman-liu-redding-2023-dynamic-spatial]], [[zhao-chen-fu-2022-dynamic-qse-china]]

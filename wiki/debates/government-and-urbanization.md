@@ -1,0 +1,82 @@
+---
+title: "Government and Urbanization"
+type: debate
+status: active
+papers:
+  - wu-you-2025-urbanization
+  - ma-tang-2020-geography-trade
+  - tombe-zhu-2019-trade-migration-china
+  - li-ma-tang-2024-migration-misallocation
+tags:
+  - urbanization
+  - hukou
+  - city-size
+  - migration
+  - China
+---
+
+# Government and Urbanization
+
+The question of whether governments should restrict the growth of large cities through migration controls is one of the longest-standing debates in urban economics, and it has become acutely urgent for China, where the hukou (household registration) system governs the spatial distribution of 1.4 billion people. One position holds that because individual migrants ignore the congestion costs, environmental degradation, and pressure on public services they impose on incumbent residents, equilibrium city sizes exceed the social optimum, making migration restrictions a welfare-improving Pigouvian intervention. The opposing position contends that the welfare losses from preventing workers from reaching high-productivity locations far exceed any gains from congestion correction, and that cities with strong fundamentals should be allowed to grow beyond their locally optimal size from a national welfare perspective. A growing body of quantitative spatial equilibrium (QSE) evidence, anchored on China's hukou system, now allows this debate to be adjudicated empirically.
+
+## Theoretical foundations: optimal city size in the presence of externalities
+
+The intellectual foundation of the debate is the Henderson (1974) model of a system of cities, in which agglomeration economies and congestion diseconomies jointly produce an inverted-U relationship between city size and average local welfare. Each city has a locally optimal size determined by the balance of these forces. Yet because both agglomeration and congestion are external to individual migration decisions, the equilibrium allocation in a decentralized economy generally deviates from both local and national optima. A central planner maximizing national welfare would allow cities with better fundamentals to surpass their local optima, because concentrating population in the most productive locations raises aggregate output [[wu-you-2025-urbanization]]. This generates the core tension of the debate: locally optimal city sizes are systematically smaller than nationally optimal sizes for high-productivity cities, and a city government that restricts in-migration to protect local residents may be moving closer to the local optimum but farther from the national optimum.
+
+## Position A: migration restrictions correct for urban externalities
+
+The case for controlling city sizes through migration policy rests on the Pigouvian insight that migrants do not internalize the costs they impose on existing residents. Increased population density raises housing prices, congests public infrastructure, strains schools and hospitals, and degrades the environment. In the absence of a fiscal mechanism to charge migrants for these costs, cities may grow beyond their locally optimal size.
+
+Wu and You (2025) provide direct empirical support for this position. Their structural estimates show that most large Chinese cities have surpassed their locally optimal sizes: 83.3% of tier-1 cities and 88.9% of tier-2 cities are locally oversized. In these cities, relaxing hukou restrictions would reduce the average welfare of the "representative resident"—whose welfare accounts for the redistribution of land rents and public goods between natives and migrants—by 0.127–0.155% per period. Ma and Tang (2020) report a sharper version of this tension: Shanghai, China's largest city, has migration barriers 24% above the national average, yet completely removing these barriers would reduce local welfare by 8.3%, because the surge in congestion from an additional 6 million migrants would dominate the wage gains [[ma-tang-2020-geography-trade]].
+
+The key mechanism behind Position A is the inelastic supply of urban land. As cities exhaust developable land, housing supply becomes increasingly inelastic, driving up prices and reducing real incomes for incumbent residents. In this setting, restricting in-migration is a second-best policy that protects local residents when land markets cannot adjust.
+
+## Position B: mobility frictions dominate externality correction
+
+The opposing view holds that the first-order distortion in the Chinese economy is not the congestion externality but the barrier to labor mobility itself. From a national welfare perspective, the gains from reallocating workers to high-productivity locations dwarf any local congestion losses.
+
+The headline result from Wu and You (2025) is that the overall hukou system creates a GDP loss of 13.6% and a welfare loss of 4.7% averaged over 2000–2020. Counterfactually removing all hukou restrictions, they find that it is almost always welfare-reducing to restrict the population size of any individual city, because the positive effects of greater labor mobility dominate the negative effects of allowing already-oversized cities to grow further. The GDP gains would come from reallocating populations from less productive to more productive cities and from better matches between workers' idiosyncratic productivities and urban labor markets.
+
+Tombe and Zhu (2019) reinforce this finding from a complementary Eaton-Kortum framework. They estimate that the reductions in migration costs between 2000 and 2005—driven by the 2003 administrative reform of temporary residence permits and hukou reforms in several provinces—raised aggregate labor productivity by 4.8% and welfare by 11.1%. Crucially, the potential gains from further liberalization remain massive: lowering migration costs to achieve a one-third inter-provincial migrant share (comparable to U.S. rates) would increase real GDP per worker by 12.8% and welfare by 45.6% [[tombe-zhu-2019-trade-migration-china]]. A further subtlety, emphasized by Li, Ma, and Tang (2024), is that migration liberalization and within-prefecture firm-level friction reduction are substitutes for achieving aggregate welfare gains but have opposite distributional consequences: reducing migration barriers worsens spatial inequality, while reducing within-prefecture distortions shrinks it [[li-ma-tang-2024-migration-misallocation]].
+
+> ***Cross-pattern finding**: Across the QSE literature on China, the debate is increasingly framed not as "should we control city sizes or not" but as "what form of intervention best reconciles local and national welfare."*
+
+## Where the two positions agree
+
+Despite their disagreement on the net welfare effect, the two positions converge on several points. First, both recognize that large Chinese cities have surpassed their locally optimal sizes—this is robust across the Wu-You and Ma-Tang frameworks. Second, both agree that migration liberalization imposes genuine distributional costs: natives in desirable cities lose from crowding in public services and rising housing costs, even if the national gains are positive. Third, the evidence from Ma and Tang (2020) shows that the largest cities (notably Shanghai) may be above even the national optimum, meaning that some level of restriction could in principle be welfare-improving at both the local and national levels for specific cities, although these cases are exceptions rather than the rule.
+
+> **Current assessment (2026-07):** The empirical evidence now strongly favors Position B at the national level—the welfare costs of mobility frictions dominate externality-correction benefits—but with important caveats about distributional effects and city-specific exceptions. The debate has shifted from whether intervention is needed to what form it should take.
+
+## Empirical anchors
+
+The empirical resolution of the debate depends on three structural parameters estimated by Wu and You (2025): the agglomeration elasticity (φ ≈ 0.10, estimated from Chinese microdata using historical city size as an instrument), the congestion elasticity (governed by housing supply elasticities derived from satellite data on terrain ruggedness and land cover), and the fiscal wedge created by hukou policy (estimated at 50.7% of destination wage in 2000 via a revealed-preference approach). These estimates place China's agglomeration elasticity at the upper end of the international range of 0.04–0.07 found in developed-country studies.
+
+Ma and Tang (2020) provide complementary evidence using a Melitz-style model with endogenous firm entry. Their key result is that migration inflows raise local welfare in all destination cities except Shanghai—a finding that depends critically on the extensive margin of firm entry. In-migration expands market size, induces firm entry, increases product variety, and lowers prices, quantitatively dominating congestion costs. Tombe and Zhu (2019) estimate the income elasticity of migration (κ ≈ 1.5) and the trade elasticity (θ ≈ 4) within the range found in international studies, and document that migration costs declined by 18% on average between 2000 and 2005, with between-province costs falling by nearly 40%.
+
+## Distributional effects: who wins and who loses
+
+A crucial dimension that neither position fully resolves is the distribution of gains and losses from migration liberalization. Wu and You (2025) decompose welfare effects on three groups: natives (incumbent hukou holders), migrants, and a "representative" resident. Under free migration, natives in tier-1 cities would suffer welfare losses of 10.6–17.0% (depending on skill level), driven primarily by crowding in the consumption of local publicly-provided private goods—chiefly education and healthcare. The wage channel and land-rent redistribution partially offset these losses, but cannot fully compensate them. Migrants, by contrast, would gain 5.4–8.3% in tier-1 cities.
+
+This distributional tension creates a political-economy barrier to reform: the winners (migrants and the national aggregate) are diffuse, while the losers (incumbent residents of desirable cities) are concentrated and politically influential. The skill-based structure of hukou granting—in tier-1 cities in 2010, only 3.3% of migrants with primary schooling received local hukou versus 37.3% of college graduates—further skews the distributional effects toward protecting high-skilled incumbents [[wu-you-2025-urbanization]].
+
+## Policy complementarities
+
+Recognition that pure migration liberalization creates winners and losers has generated research on complementary policies. Wu and You (2025) show that increasing the price elasticity of urban land supply has the largest effect on reconciling local and national welfare among the policies they consider: doubling the land supply semi-elasticity reduces native welfare losses in tier-1 cities from 17.0% to 9.3% for low-skilled workers. Market-provided substitutes for publicly-provided services (private education and healthcare) also reduce the welfare wedge between migrants and natives. Conditional fiscal transfers from the central government to local governments based on migrant numbers can incentivize receiving cities to accommodate larger populations.
+
+> **Current assessment (2026-07):** Land supply elasticity emerges as the single most effective complementary policy in quantitative models, but it faces a fundamental constraint: the most productive cities have limited developable land, and further urban expansion conflicts with farmland protection policies and environmental goals.
+
+## Frontier: QSE policy translation for China
+
+The integration of QSE methods into Chinese policy design faces a fundamental tension between the "common prosperity" agenda—which emphasizes spatial equity—and the aggregate efficiency case for migration liberalization. Wu and You (2025) provide a framework for sequencing reform: first relax hukou restrictions in cities that are below both local and national optima (most tier-2 and tier-3 cities), complemented by land supply reforms; then address the distributional consequences in tier-1 cities through fiscal transfers and market-provided public service alternatives.
+
+Emerging research suggests that digital infrastructure may alter the optimal city size calculus by reducing the cost of spatial separation. Data market integration ([[lin-liu-zhou-2026-data-market]]) and network infrastructure improvements ([[liu-zhang-cai-2026-network-infrastructure]]) can enable the spatial decentralization of services that currently require physical presence. To the extent that digital infrastructure substitutes for physical co-location, it shifts both the agglomeration benefits and the congestion costs of large cities, potentially altering the welfare calculus of migration restrictions. This remains an active frontier for QSE policy modeling in the Chinese context.
+
+## Cross-links
+
+**Concepts:** [[economics-of-the-hukou-system]], [[quantitative-spatial-equilibrium]], [[local-employment-elasticities-and-commuting]]
+
+**Mechanisms:** [[welfare-effects-of-migration-in-chinese-cities]], [[firm-level-frictions-and-spatial-misallocation]], [[capital-labor-dynamics-and-spatial-convergence]]
+
+**Synthesis:** [[migration-barriers-and-spatial-inequality]], [[trade-and-migration-cost-reductions-in-china]], [[network-infrastructure-and-market-integration]]
+
+**Major sources:** [[wu-you-2025-urbanization]], [[ma-tang-2020-geography-trade]], [[tombe-zhu-2019-trade-migration-china]]

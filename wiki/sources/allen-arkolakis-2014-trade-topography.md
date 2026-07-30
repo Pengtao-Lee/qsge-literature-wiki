@@ -1,0 +1,107 @@
+---
+title: "Trade and the Topography of the Spatial Economy"
+type: source
+authors: [Allen, Treb, Arkolakis, Costas]
+year: 2014
+slug: allen-arkolakis-2014-trade-topography
+tags: [spatial-economics, trade-gravity, economic-geography, transportation-infrastructure]
+raw_markdown: "[[raw_markdown/papers/allen-arkolakis-2014-trade-topography]]"
+status: canonical
+journal: Quarterly Journal of Economics
+doi: 10.1093/qje/qju016
+---
+
+# Trade and the Topography of the Spatial Economy (2014)
+
+> **Paper claim** — Develops a general equilibrium framework combining gravity trade with labor mobility to determine the spatial distribution of economic activity on any surface with arbitrary geography, and applies it to quantify the role of geographic location in US income inequality and the welfare impact of the Interstate Highway System.
+
+Raw markdown: [[raw_markdown/papers/allen-arkolakis-2014-trade-topography]]
+
+## Research Question
+
+How much of the observed spatial disparity in economic activity is due to geographic location (remoteness from markets) rather than local characteristics (productivity, amenities, institutions)? More broadly, can a unified quantitative framework be developed to determine the equilibrium spatial distribution of economic activity on any surface with arbitrary geography, amenable to real-world data?
+
+## Model / Experimental Design
+
+The theoretical framework has two mutually compatible components:
+
+**Economic component.** A general equilibrium model of a continuum of locations $i \in S$, each producing a unique differentiated variety under perfect competition (Armington setup). Workers are freely mobile across locations with CES preferences over all varieties. Iceberg trade costs $T(i,j)$ govern the cost of shipping from $i$ to $j$. Both productivity $A(i)$ and amenities $u(i)$ can depend on local population density through spillover parameters $\alpha$ and $\beta$:
+
+\[
+A(i) = \overline{A}(i) L(i)^\alpha, \qquad u(i) = \overline{u}(i) L(i)^\beta
+\]
+
+A spatial equilibrium is defined by market clearing, welfare equalisation across inhabited locations, and aggregate labour market clearing. The equilibrium reduces to a system of two non-linear integral equations; when trade costs are symmetric, this collapses to a single non-linear integral equation (a homogeneous Hammerstein equation of the second kind).
+
+**Geographic component.** Bilateral trade costs are micro-founded as the accumulation of instantaneous trade costs $\tau(i)$ over the least-cost route on the surface. The least-cost path problem is solved via the eikonal partial differential equation $\|\nabla t(i,j)\| = \tau(j)$ and computationally implemented using the Fast Marching Method (FMM), an efficient $O(n \log n)$ algorithm adapted from computational physics.
+
+**Empirical strategy (two-step).** Step 1: Using detailed GIS data on US road, rail, and water networks combined with mode-specific bilateral trade shares from the 2007 Commodity Flow Survey, a discrete choice framework recovers mode-specific relative trade costs. A gravity equation then pins down the scale and estimates nongeographic trade costs. Step 2: Given estimated trade costs and the observed spatial distribution of wages and population (2000 US Census, 3,109 counties), Theorem 3 guarantees a unique topography of composite productivities and amenities that rationalises the data.
+
+## Main Results
+
+- **Existence and uniqueness.** In a regular geography with exogenous productivity and amenities, a unique regular spatial equilibrium exists and can be computed as the uniform limit of a simple iterative procedure (Theorem 1). With symmetric trade costs and spillovers, existence holds if $\gamma_1 \neq 0$ (Theorem 2); uniqueness and point-wise local stability hold if $\gamma_1 > 0$ (i.e. dispersion forces at least as strong as agglomeration forces, $\alpha + \beta \leq 0$). When $\alpha + \beta > 0$, multiple equilibria can arise (demonstrated on a circle).
+- **Sufficient statistic for location.** The price index $P(i)$ is a sufficient statistic for geographic location; in equilibrium wages and population are log-linear functions of exogenous local characteristics and the price index.
+- **Geographic location accounts for at least 20%** of the spatial variation in US income in 2000 (Shapley decomposition), and up to 70% depending on the strength of spillovers.
+- **Interstate Highway System welfare gain.** Removing the IHS would reduce welfare by 1.1% to 1.4% (depending on spillover strength). A back-of-the-envelope calculation comparing this to construction and maintenance costs implies an annualised return of at least 9%.
+- **Mode-specific trade costs.** Road transport has the lowest variable cost but highest fixed cost; rail and water become relatively cheaper at longer distances. Trade costs are ~30 percentage points lower within the same state.
+- **Estimated elasticities.** The model assumes $\sigma = 9$, yielding a trade elasticity of 8 (consistent with Eaton and Kortum 2002). The discrete-choice shape parameter $\theta$ is estimated at 14.2 (all CFS areas) or 17.7 (MSAs only).
+
+## Mechanisms Identified
+
+> **Paper claim** — The channel through which geography shapes the spatial economy is the price index: locations with better access to markets (lower trade costs to all destinations) face lower price indices, which attracts population and (depending on spillover signs) compresses or amplifies wage variation.
+
+- **Productivity and amenity spillovers** ($\alpha, \beta$) act as agglomeration and dispersion forces, respectively. Their net strength $\gamma_1 = 1 - \alpha(\sigma-1) - \sigma\beta$ governs whether equilibria are stable and unique.
+- **The log-linear equilibrium relationships** (equations 15-16) show that population concentrates where exogenous productivity $\overline{A}$ and amenity $\overline{u}$ are high and where the price index is low; wages respond ambiguously depending on spillover sign.
+- **Geographic micro-foundation of trade costs** reduces the dimensionality of the trade cost function from $S \times S$ to $S$, via the instantaneous cost function $\tau(i)$ and the least-cost path.
+
+Links: [[mechanism-spatial-equilibrium]], [[mechanism-trade-costs-geography]]
+
+## Methods and Measures
+
+- Fast Marching Method (FMM) for computing least-cost-path trade costs on a continuous surface from network data
+- Shapley decomposition to partition spatial income variation into local characteristics vs. geographic location components
+- Discrete choice estimation (multinomial logit with Gumbel-distributed idiosyncratic costs) for mode-specific trade costs
+- Gravity equation estimation with origin-destination fixed effects and bootstrapped standard errors
+- Nonlinear integral equation solution via iterative procedure (uniform limit of successive approximations)
+- 1,032-by-760 pixel GIS raster of US transportation networks (650,000 km roads, 225,000 km rail, 300,000 km navigable waterways)
+
+Links: [[method-fast-marching-method]], [[method-shapley-decomposition]], [[method-discrete-choice-trade-costs]]
+
+## Concepts Engaged
+
+- Spatial equilibrium (free mobility, welfare equalisation)
+- Gravity equation in trade
+- Iceberg trade costs
+- Productivity and amenity spillovers
+- Economic geography / New Economic Geography (Krugman 1991)
+- Market access / remoteness
+- General equilibrium counterfactuals
+- Roback (1982) model extension with costly trade
+- Isomorphism between different spatial models (monopolistic competition, Helpman-Redding housing, heterogeneous preferences)
+
+Links: [[concept-spatial-equilibrium]], [[concept-gravity-trade]], [[concept-iceberg-trade-costs]], [[concept-agglomeration-dispersion]]
+
+## Connection to Debates
+
+> **Paper claim** — Provides evidence that geographic location (accessibility to markets via transportation networks) is a first-order determinant of the spatial distribution of income, not merely local characteristics. This weighs against purely "first nature" geography explanations (climate, resources, institutions) and demonstrates that quantitative spatial models can bridge theory and data.
+
+- Engages the debate on the relative importance of "first nature" (site-specific endowments) vs. "second nature" (access to markets) geography in determining spatial inequality (Acemoglu, Johnson, Robinson 2002 vs. Krugman 1991).
+- Contributes to the transportation infrastructure cost-benefit debate by providing welfare estimates for the Interstate Highway System that substantially exceed its construction costs.
+- Provides a unified framework that nests several previously distinct spatial theories (Krugman monopolistic competition, Helpman housing model, Roback locational equilibrium) as special cases of a common structure.
+
+Links: [[debate-first-nature-vs-second-nature-geography]], [[debate-transportation-infrastructure-welfare]]
+
+## Theoretical / Empirical Significance
+
+This paper is a landmark in the quantitative spatial economics literature. It provides the first framework that can handle continuous space with arbitrary geography while retaining tractable existence, uniqueness, and stability conditions. The two-step empirical strategy (estimate trade costs from networks, then recover productivities and amenities by inversion) became a standard template for subsequent work. It also introduced the Fast Marching Method from computational physics to economics, enabling high-resolution spatial analysis. The finding that the Interstate Highway System's benefits substantially exceed its costs (1.1-1.4% of GDP, implying an annualised return >9%) has been influential in transportation policy debates.
+
+The paper is theoretically significant for showing systematic isomorphisms between its Armington-with-spillovers setup and apparently distinct models (Krugman 1991, Helpman 1998, Redding 2012, Roback 1982), unifying strands of spatial theory under a common mathematical structure.
+
+## Notes and Caveats
+
+- The identification of composite productivities and amenities relies on the assumed functional form of spillovers ($\alpha, \beta$). The paper cannot identify $\alpha$ and $\beta$ from cross-sectional data; results are reported across a range of plausible values.
+- The sequential estimation approach (trade costs first, then productivities and amenities) depends on the assumption that the discrete-choice trade-cost estimation (using mode shares) controls for endogeneity of transport network placement. Remaining concerns about relative mode-specific network placement are acknowledged.
+- The counterfactual analysis assumes that construction of the Interstate Highway System did not alter the underlying exogenous productivities and amenities $\overline{A}$ and $\overline{u}$.
+- Trade is modelled as perfectly competitive Armington differentiation, which abstracts from firm heterogeneity, endogenous markups, and dynamic responses.
+- The welfare calculation is static and does not account for general equilibrium effects on investment, innovation, or long-run growth.
+- The exponential functional form $T(i,j) = e^{t(i,j)}$ for geographic trade costs, while justified as the limit of multiplicative iceburg increments, is an assumption that determines how distance maps to trade costs.

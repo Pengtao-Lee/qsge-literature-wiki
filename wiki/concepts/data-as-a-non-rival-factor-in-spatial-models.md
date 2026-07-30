@@ -1,0 +1,83 @@
+---
+title: "Data as a Non-Rival Factor in Spatial Models"
+type: concept
+status: active
+papers: [lin-liu-zhou-2026-data-market, liu-zhang-cai-2026-network-infrastructure, zhao-chen-fu-2022-dynamic-qse-china, trew-2020-endogenous-infrastructure, redding-rossi-hansberg-2017-quantitative-spatial]
+tags: [data, non-rivalry, spatial-equilibrium, digital-economy, market-integration, data-intermediary]
+---
+
+Data is a non-rival factor of production: the same dataset can be used by any number of firms simultaneously without depletion. This property fundamentally alters how data markets function in spatial equilibrium, creating a distinctive economic logic that standard quantitative spatial equilibrium (QSE) models — designed around rival factors such as labor and physical capital — do not capture. In a spatial economy, data produced in one region can be sold to firms in many regions at negligible marginal replication cost, decoupling data production from data consumption across geographic space. This non-rivalry introduces scale economies that arise from market size itself, not from the density of economic activity. Lin, Liu, and Zhou (2026) formalise these ideas by embedding a data intermediary sector that purchases raw data from consumers, processes it into workable data, and sells it to intermediate goods producers. Because the same workable data can be sold to multiple firms simultaneously, the equilibrium data price falls with the number of buyer firms — a pure scale economy that does not exist for rival inputs and that generates efficiency gains beyond those from traditional goods-market integration.
+
+## The economic nature of data: non-rivalry and its implications
+
+Non-rival goods are defined by the property that one agent's use does not preclude simultaneous use by others, and the marginal cost of replication is effectively zero. Data fits this definition: a consumer's transaction history, once recorded, can be analysed by any number of firms without degrading the original record. This stands in sharp contrast to rival factors such as labor (a worker can be in only one location at a time) or physical capital (a machine can produce for one firm at a time). The economic implication is profound for pricing: marginal-cost pricing for a non-rival good recoups none of the fixed cost of production, so data markets must develop alternative pricing mechanisms. In the Lin-Liu-Zhou framework, a distinction is drawn between *raw data*, which is owned by consumers who incur a privacy cost from sharing it, and *workable data*, which is the cleaned, labelled, and processed form produced by a data intermediary ([[lin-liu-zhou-2026-data-market]]). This separation of ownership and processing stages follows Jones and Tonetti (2020), who first formalised data as a non-rival good in a macroeconomic setting, and allows the model to treat the pricing of raw data (determined by consumers' privacy trade-off) separately from the pricing of workable data (determined by the intermediary's cost structure and the non-rival nature of the product).
+
+## A spatial model with a data sector
+
+Lin, Liu, and Zhou build a two-region economy (East and West) in which a representative consumer in each region chooses consumption $c_{n,t}$ and data sharing $d_{n,t}$ to maximise lifetime utility, subject to a privacy cost parameter $\kappa_{n,t}$. The utility function takes the form:
+
+$$
+u_{n,t} = z_n \left( \frac{c_{n,t}^{1-\theta}}{1-\theta} - (1 + h_{n,t}\mathbb{I})\kappa_{n,t} d_{n,t}^2 \right)
+$$
+
+where $h_{n,t}\mathbb{I}$ captures the additional privacy cost when data can flow across regions, and $z_n$ is an amenity shifter that includes congestion effects and idiosyncratic location preferences. Consumers sell raw data to a data intermediary at price $p_{b,t}^D$, so their budget constraint is $P_{n,t}C_{n,t} = w_{n,t}L_{n,t} + p_{b,t}^D D_{n,t}$, establishing the trade-off between privacy costs and data-sharing income. The data intermediary purchases raw data from both regions and processes it according to:
+
+$$
+T_t = \chi \left(\sum_i D_{i,t}\right)^\gamma \left(L_t^D\right)^{1-\gamma}
+$$
+
+where $\gamma$ is the share of raw data in data production and $\chi$ is data-processing productivity. The resulting workable data $T_t$ is sold to intermediate goods firms, which use it as a productivity shifter:
+
+$$
+A_{i,t}(\omega) = A_{i,t}^o(\omega) \cdot \varphi_{i,t}(\omega)^\zeta
+$$
+
+where $\varphi_{i,t}(\omega)$ is the quantity of workable data used by firm $\omega$ and $\zeta$ is the elasticity of productivity with respect to data. This embeds the data sector into a canonical QSE architecture with interregional trade and migration ([[redding-rossi-hansberg-2017-quantitative-spatial]]; [[zhao-chen-fu-2022-dynamic-qse-china]]).
+
+## Market structure for non-rival data: intermediaries and pricing
+
+The data intermediary is the institutional mechanism that makes non-rivalry operational in spatial equilibrium. Because the same processed dataset can be sold to any number of firms — the only constraint is $\varphi_{i,t}(\omega) \leq T_t$ — the intermediary's revenue is $p_{s,t}^D \sum_i I_{i,t}\varphi_{i,t}$, where $I_{i,t}$ is the mass of firms in region $i$. Under a zero-profit benchmark, the price of workable data is:
+
+$$
+p_{s,t}^D = \frac{p_{b,t}^D D_t + w_{w,t} L_t^D}{I_{e,t}\varphi_{e,t} + I_{w,t}\varphi_{w,t}}
+$$
+
+This expression reveals the distinctive non-rival pricing logic: the numerator is the total cost of data production (raw data purchases plus labour), while the denominator sums data purchases across *all* firms. Since the same workable data serves many firms, the price per firm falls below the marginal cost of production — a pricing pattern impossible for rival goods. An equally important modeling choice is that cross-regional data flows incur no additional iceberg cost: the same workable dataset is sold to firms in both the East and West at the same price, with no additive transport or transaction cost. This assumption captures the technical reality that digital transmission costs are negligible relative to the value of data itself, and it embodies the institutional objective of a unified national data market in which regional data barriers are eliminated ([[lin-liu-zhou-2026-data-market]]). In segmented markets, by contrast, the intermediary cannot sell across regions, so the market is restricted to local firms only — equivalent to an infinite iceberg cost for data. As the number of firms increases, the denominator grows and the price falls further, creating the virtuous cycle that underpins the scale economy mechanism. Crucially, the price declines with the number of buyer firms even when the intermediary earns zero profit, because the fixed cost of producing the dataset is spread across more users. When the intermediary possesses market power, modelled as a price markup $\varpi$, the price rises to $p_{s,t}^D = (1+\varpi)\frac{p_{b,t}^D D_t + w_{w,t} L_t^D}{\sum_i I_{i,t}\varphi_{i,t}}$, which reduces data adoption but does not eliminate the scale economy ([[lin-liu-zhou-2026-data-market]]).
+
+*Cross-pattern observation:* The non-rival data scale economy is a distinct mechanism from standard agglomeration economies. Standard agglomeration operates through the density of economic activity — thicker labour markets, knowledge spillovers, input sharing — whereas the data scale economy operates purely through the number of firms purchasing the same non-rival product. The two mechanisms can coexist and reinforce each other, but they are analytically separate.
+
+## The scale economy mechanism
+
+In a unified data market, the interplay between data pricing and market size generates a positive feedback loop that has no analogue for rival factors. As data market integration lowers the workable data price, firms expand their data input, raising productivity. Higher productivity raises expected profits from entry, attracting more firms. Since the data price falls with the number of buyer firms, the new entrants further reduce the data price, deepening the incentive for data adoption. Lin, Liu, and Zhou trace the cycle as: data price falls → data input rises → productivity rises → expected profits rise → new firms enter → scale economy strengthens → data price falls further. In their quantitative exercise, this feedback loop contributes substantially to the headline result: a unified data market raises aggregate GDP by approximately 12.3% relative to a segmented market baseline. The decomposition shows that roughly half this gain comes from the intensive margin (productivity per firm rises ~1%) and half from the extensive margin (firm count rises ~5.6%). The scale economy channel dwarfs the resource allocation channel in magnitude, confirming that non-rivalry — not just comparative advantage in data processing — is the primary source of efficiency gain ([[lin-liu-zhou-2026-data-market]]).
+
+## Data market segmentation and data types in China
+
+The theoretical mechanism acquires its policy salience from the depth of data market fragmentation in China. Between 2015 and 2023, 27 provinces launched data trading platforms, yet the total cumulative transaction volume of the top five platforms barely exceeded 20 billion yuan — a tiny fraction of the market's potential scale. More critically, the platforms operate under incompatible data standards, fragmented governance regimes, and local protectionist policies, creating "data islands" and "data chimneys" that prevent cross-regional data flows. Lin, Liu, and Zhou classify data markets along two dimensions — transaction cost (low vs. high) and market structure (competitive vs. monopolistic) — yielding four types. *Low-transaction-cost competitive* markets (financial data) suffer from homogeneous products and dispersed trading. *Low-transaction-cost monopolistic* markets (credit, social security, internet platform data) face institutional silos and low willingness to share across agencies. *High-transaction-cost competitive* markets (industrial, agricultural data) struggle with incompatible formats and weak standardisation. *High-transaction-cost monopolistic* markets (government administrative data) face the most severe barriers: complex ownership, privacy regulation, bureaucratic fragmentation, and stringent security approval requirements ([[lin-liu-zhou-2026-data-market]]).
+
+## Comparative advantage and welfare effects of integration
+
+Because data production is less tied to physical geography than goods production, regions with comparative advantage in data production — low privacy costs, abundant data-processing labour, digital infrastructure endowments — can serve the entire national market. In the unified-market counterfactual, data production shifts from East to West, consistent with the "Eastern data–Western computing" (东数西算) strategy. Western data-sector employment more than doubles relative to the segmented baseline, while the East specialises further in goods production. This new spatial division of labour generates welfare gains for both regions: per-capita welfare rises approximately 6.5% in the East and 3.5% in the West. The efficiency gain from data integration is additional to the standard gains from goods-market integration — it is driven by the scale economy mechanism, not by allocative efficiency alone. Data integration also creates what Lin, Liu, and Zhou call a "multiplier effect": the same productivity, trade-barrier, or migration-cost reduction generates a larger GDP response under a unified data market than under segmented markets, because data's scale economy amplifies the initial impulse through the feedback loop described above ([[lin-liu-zhou-2026-data-market]]; [[liu-zhang-cai-2026-network-infrastructure]]).
+
+> *Current assessment (2026-07):* The estimated welfare gains from data market integration are derived from a static or recursively dynamic QSE framework. Whether this understates or overstates the dynamic gains is an open question. On one hand, the model does not capture the innovation spillovers from cumulative data reuse ("learning from data"), which would amplify the gains. On the other, the "complete segmentation vs. full integration" counterfactual likely represents an upper bound, as real-world institutional barriers will be removed only partially.
+
+## Robustness and boundary conditions
+
+Lin, Liu, and Zhou test the sensitivity of their results along four dimensions. First, a higher data input share ($\zeta$) amplifies the gains from integration, while a lower share attenuates them — a result with direct policy implications for deepening enterprise digitalisation. Second, when raw data from different regions are imperfect substitutes (CES with elasticity $\rho$), the aggregate welfare effect is largely unchanged but the regional distribution shifts: the East benefits more because the intermediary substitutes toward Eastern data. Third, higher consumer privacy costs reduce data supply, weaken the scale economy, and compress the gains. Fourth, introducing monopoly power in the data intermediary (markup $\varpi$ = 0.2 or 0.5) reduces data sharing, raises the workable data price, and narrows but does not eliminate the gains from integration. The robustness checks suggest that the central scale economy mechanism is resilient, but complementary policies — data standardisation, privacy protection through trusted computing and federated learning, and competition regulation — are necessary to realise the full potential of integration ([[lin-liu-zhou-2026-data-market]]).
+
+> *Current assessment (2026-07):* Among the boundary conditions, the relative quantitative importance of privacy concerns versus monopoly power remains unsettled. Both channels reduce the gains from integration by comparable orders of magnitude in the calibration, but the policy responses they demand are very different — privacy-enhancing technology on one hand, antitrust enforcement on the other. Disentangling their effects in real-world data markets is a priority for future empirical work.
+
+## Frontier: QSE policy translation for China
+
+The Lin-Liu-Zhou model provides a directly operational framework for analysing China's national unified data market strategy. Three policy implications stand out. First, because the scale economy depends on market size, fragmenting the data market along provincial lines is particularly costly for a non-rival good. Policy should prioritise the interoperability of data standards and trading platforms across provinces, alongside the institutional "soft connectivity" of mutual recognition and coordinated governance. Second, data market integration creates a "multiplier effect" for other reforms: it amplifies the growth impact of productivity improvements, trade liberalisation, and migration-barrier reductions. Data market reform should therefore be sequenced alongside hukou reform and trade integration, not treated as an independent initiative. Third, integration also amplifies negative shocks — data-security breaches cause more damage in an interconnected data environment — so investment in data security infrastructure (trusted computing, privacy-preserving computation, verifiable data流通) must accompany market-building, not follow it ([[lin-liu-zhou-2026-data-market]]; [[liu-zhang-cai-2026-network-infrastructure]]). Extending the static model to a fully dynamic QSE framework with capital accumulation and forward-looking migration, as surveyed by Zhao, Chen, and Fu (2022), would sharpen these policy conclusions — particularly for understanding the transition path and the speed of convergence to an integrated market equilibrium ([[zhao-chen-fu-2022-dynamic-qse-china]]).
+
+## Cross-links
+
+**Concepts:** [[quantitative-spatial-equilibrium]], [[gravity-in-spatial-economics]]
+
+**Mechanisms:** [[endogenous-infrastructure-and-spatial-development]], [[firm-level-frictions-and-spatial-misallocation]]
+
+**Synthesis:** [[network-infrastructure-and-market-integration]], [[trade-and-migration-cost-reductions-in-china]]
+
+**Debates:** [[government-and-urbanization]]
+
+**Major sources:** [[lin-liu-zhou-2026-data-market]], [[liu-zhang-cai-2026-network-infrastructure]], [[zhao-chen-fu-2022-dynamic-qse-china]], [[redding-rossi-hansberg-2017-quantitative-spatial]], [[trew-2020-endogenous-infrastructure]]
