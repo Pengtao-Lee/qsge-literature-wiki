@@ -28,3 +28,17 @@ Append-only log of all wiki operations.
 ---
 
 *Log entries appear below as the wiki grows.*
+
+## [2026-07-31] wiki-build | 2 rounds, 26 pages
+- Workspace: agent_tasks/wikipedia-rewrite_202607310654/
+- New papers: 12 (QSGE second-batch expansion; converted with MinerU VLM, not markitdown)
+- Source pages added: 12 — eaton-kortum-2002-technology-geography-trade, redding-2016-goods-trade-factor-mobility-welfare, caliendo-parro-2015-trade-welfare-nafta, ahlfeldt-redding-sturm-wolf-2015-economics-density, desmet-nagy-rossi-hansberg-2018-geography-development, eckert-peters-2022-spatial-structural-change, tsivanidis-2026-urban-transit-infrastructure, zhao-chen-2021-interregional-land-allocation, zhao-wang-dai-chen-2025-cross-regional-investment-distortions, zhou-gong-2024-public-expenditure-equalization, liu-wang-chen-2024-human-capital-spatial-allocation, luo-luo-2025-carbon-control-spatial-transmission
+- Synthesis pages created: 4 — transport-infrastructure-and-urban-welfare, structural-transformation-and-regional-convergence, spatial-public-finance, overview (populated from stub)
+- Concept pages created: 4 — ricardian-quantitative-trade, multi-sector-trade-and-input-output-linkages, agglomeration-and-dispersion-forces, internal-city-structure-and-density
+- Mechanism page created: 1 — carbon-policy-and-spatial-leakage
+- Method pages created: 3 — exact-hat-algebra, model-inversion-and-fundamentals-recovery, sufficient-statistics-in-spatial-models
+- Measure pages created: 2 — commuter-market-access, trade-elasticity-estimation
+- Debate page created: 1 — land-supply-regional-tilt-debate
+- Synthesis pages updated: 3 — migration-barriers-and-spatial-inequality, gravity-in-spatial-economics, quantitative-spatial-equilibrium (concept), spatial-innovation-and-structural-transformation (mechanism), local-employment-elasticities-and-commuting, economics-of-the-hukou-system, welfare-effects-of-migration-in-chinese-cities, firm-level-frictions-and-spatial-misallocation, capital-labor-dynamics-and-spatial-convergence, endogenous-infrastructure-and-spatial-development, government-and-urbanization
+- Unresolved (capped after revise): none — 12/12 R1 PASS, 14/14 R2 PASS after revision (1 R2 REVISE: economics-of-the-hukou-system OCR-half-life hedged)
+- Lint: frontmatter PASS; orphans: log.md only (meta, pre-existing); link cleanup: 24 re-pointed + 127 de-bracketed stale source-page wikilinks; raw-layer image refs pre-existing (not rendered)

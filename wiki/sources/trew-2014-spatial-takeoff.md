@@ -5,7 +5,7 @@ authors: ["Trew, Alex"]
 year: 2014
 slug: trew-2014-spatial-takeoff
 tags: [spatial-development, economic-geography, structural-transformation, industrial-revolution, endogenous-growth, non-homothetic-preferences]
-raw_markdown: "[[raw_markdown/papers/trew-2014-spatial-takeoff.md]]"
+raw_markdown: "[[raw_markdown/papers/trew-2014-spatial-takeoff]]"
 status: canonical
 journal: "Review of Economic Dynamics, 17(4), 707–725"
 abstract: "Using the framework of Desmet and Rossi-Hansberg (forthcoming), we present a model of spatial takeoff that is calibrated using spatially-disaggregated occupational data for England in c. 1710. The model predicts changes in the spatial distribution of agricultural and manufacturing employment which match data for c. 1817 and 1861. The model also matches a number of aggregate changes that characterise the first industrial revolution. Using counterfactual geographical distributions, we show that the initial concentration of productivity can matter for whether and when an industrial takeoff occurs. Subsidies to innovation in either sector can bring forward the date of takeoff while subsidies to the use of land by manufacturing firms can significantly delay a takeoff because it decreases spatial concentration of activity."
@@ -15,7 +15,7 @@ abstract: "Using the framework of Desmet and Rossi-Hansberg (forthcoming), we pr
 
 > **Paper claim** — The spatial concentration of manufacturing productivity in northern England was critical to the timing and location of industrial takeoff; agricultural innovation in the South, together with non-homothetic preferences, drove structural transformation, but takeoff in manufacturing only occurred when firms in the North reached sufficient scale to amortise the fixed costs of innovation — a process shaped by the pre-existing geography of productivity and energy costs.
 
-Raw markdown: [[raw_markdown/papers/trew-2014-spatial-takeoff.md]]
+Raw markdown: [[raw_markdown/papers/trew-2014-spatial-takeoff]]
 
 ## Research Question
 
@@ -89,7 +89,7 @@ The paper adapts the **Desmet and Rossi-Hansberg (forthcoming)** spatial develop
 
 5. **Agglomeration vs. dispersion trade-off**: Transport costs ($\kappa=0.008$) concentrate activity; congestion from diminishing returns to labour ($\mu < 1$) disperses it. The balance determines firm scale and thus innovation capacity.
 
-Links: [[agglomeration-and-innovation]], [[structural-transformation-stone-geary]], [[spatial-takeoff]]
+Links: agglomeration and innovation, structural transformation (Stone–Geary), spatial takeoff
 
 ## Methods and Measures
 

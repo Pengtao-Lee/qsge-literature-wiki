@@ -49,7 +49,7 @@ The empirical component uses quasi-experimental variation from million dollar pl
 
 The mechanism operates through the gravity structure of commuting: locations with lower residence own commuting shares (more open to commuting) can draw additional workers from a broader hinterland when a positive productivity shock occurs, without requiring proportional increases in local residents and the associated land-price adjustment. The paper formalizes this through partial equilibrium elasticities derived from the model that decompose the general equilibrium response into commuting, migration, and trade-linkage components.
 
-Links: [[mechanism-commuting-labor-supply]]
+Links: commuting and labor supply
 
 ## Methods and Measures
 
@@ -59,7 +59,7 @@ Links: [[mechanism-commuting-labor-supply]]
 - **MDP event-study / difference-in-differences** — specification following Greenstone, Hornbeck, and Moretti (2010) with county, case, and year fixed effects, and interactions with commuting openness measures (residence own commuting share, workplace own commuting share, and their average/minimum).
 - **Own commuting share** — primary measure: share of a county's residents who work in the same county (λ_{ii|i}^R). Available from Census data back to 1960.
 
-Links: [[method-quantitative-spatial-equilibrium]], [[method-exact-hat-algebra]], [[method-difference-in-differences-MDP]]
+Links: [[quantitative-spatial-equilibrium]], [[exact-hat-algebra]], difference-in-differences (MDP)
 
 ## Concepts Engaged
 
@@ -69,7 +69,7 @@ Links: [[method-quantitative-spatial-equilibrium]], [[method-exact-hat-algebra]]
 - **Gravity in commuting** — commuting flows follow a gravity equation with distance elasticity ≈ 4× that of goods trade.
 - **Home market effect** — productivity shocks generate more-than-proportional employment responses in the model because of increasing returns and endogenous variety.
 
-Links: [[concept-local-employment-elasticity]], [[concept-commuting-openness]], [[concept-spatial-equilibrium]]
+Links: [[local-employment-elasticities-and-commuting]], commuting openness, [[quantitative-spatial-equilibrium]]
 
 ## Connection to Debates
 
@@ -77,7 +77,7 @@ Links: [[concept-local-employment-elasticity]], [[concept-commuting-openness]], 
 
 The paper speaks to the long-standing empirical literature on local labor demand shocks (Bartik shocks, trade shocks, natural resource booms, business cycle fluctuations) by demonstrating that spatial linkages in commuting are first-order for assessing local impacts. It also engages the debate on housing supply regulation and spatial misallocation (Hsieh and Moretti 2017): improvements in commuting technology are shown to be an alternative to relaxing housing supply constraints for enabling workers to access productive locations. Finally, it bridges the trade-and-geography literature (which typically models factor mobility across regions) and the urban economics literature (which models commuting within cities) into a unified framework.
 
-Links: [[debate-local-labor-market-shocks]], [[debate-housing-supply-and-spatial-misallocation]]
+Links: local labor market shocks, housing supply and spatial misallocation
 
 ## Theoretical / Empirical Significance
 

@@ -72,7 +72,7 @@ Key channels:
 - **Land-rent discrimination**: Migrants receive only $\mu_s$ share of local land income ($\mu_s \approx 0.3$), so rising housing prices partly compensate natives.
 - **Site heterogeneity**: Cities differ in fundamental productivity and amenity; the social planner allocates more people to better sites, making them locally oversized but nationally efficient.
 
-Links: [[mechanism-agglomeration-externality]], [[mechanism-congestion-housing]], [[mechanism-hukou-fiscal-wedge]], [[mechanism-spatial-site-heterogeneity]]
+Links: agglomeration externality, congestion and housing, hukou fiscal wedge, spatial site heterogeneity
 
 ## Methods and Measures
 
@@ -84,7 +84,7 @@ Links: [[mechanism-agglomeration-externality]], [[mechanism-congestion-housing]]
 - **Satellite-based urban land measurement**: impervious surface area at 30m resolution (Gong et al. 2020) for urban land; MODIS land cover for developable land; DEM at 90m for slope-based terrain ruggedness (Saiz 2010 method).
 - **City-specific housing supply elasticity** using land unavailability near urban core as interaction term.
 
-Links: [[method-quantitative-spatial-equilibrium]], [[method-exact-hat-algebra]], [[method-revealed-preference-hukou]], [[method-satellite-urban-land-measurement]], [[method-two-step-agglomeration]]
+Links: [[quantitative-spatial-equilibrium]], [[exact-hat-algebra]], revealed-preference analysis of hukou, satellite-based urban land measurement, two-step agglomeration estimation
 
 ## Concepts Engaged
 
@@ -95,7 +95,7 @@ Links: [[method-quantitative-spatial-equilibrium]], [[method-exact-hat-algebra]]
 - **Spatial misallocation**: Connects to Hsieh and Moretti (2019) on how high-productivity cities' barriers reduce aggregate output.
 - **Distributional conflict in urbanization**: Natives vs. migrants in desirable cities; local vs. national interests.
 
-Links: [[concept-optimal-city-size]], [[concept-spatial-equilibrium]], [[concept-urban-externalities]], [[concept-hukou]], [[concept-spatial-misallocation]]
+Links: optimal city size, [[quantitative-spatial-equilibrium]], urban externalities, hukou, spatial misallocation
 
 ## Connection to Debates
 
@@ -106,7 +106,7 @@ Key debate connections:
 - **Hsieh and Moretti (2019)**: parallels between U.S. housing supply constraints and China's hukou-based migration barriers as sources of spatial misallocation.
 - **Persistent rural–urban productivity gaps** (Gollin et al. 2014; Lagakos 2020): the paper argues these gaps persist because high-productivity cities have strong incentives to exclude migrants.
 
-Links: [[debate-optimal-city-size-china]], [[debate-promote-or-restrain-urbanization]], [[debate-housing-supply-and-spatial-misallocation]]
+Links: optimal city size in China, whether to promote or restrain urbanization, housing supply and spatial misallocation
 
 ## Theoretical / Empirical Significance
 

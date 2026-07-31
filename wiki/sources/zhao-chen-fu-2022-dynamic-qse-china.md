@@ -13,7 +13,7 @@ status: reviewed
 
 > **Survey claim** — This paper provides the first comprehensive review of dynamic quantitative spatial equilibrium (DQSE) models in either Chinese or English, systematising the theoretical framework across labour, capital, and firm dynamics, identifying the curse of dimensionality as the central technical barrier, and demonstrating through a Chinese macroeconomic application that introducing spatial population migration dramatically slows convergence and challenges steady-state-based macroeconomic analysis.
 
-Raw markdown: [[raw_markdown/papers/zhao-chen-fu-2022-dynamic-qse-china.md]]
+Raw markdown: [[raw_markdown/papers/zhao-chen-fu-2022-dynamic-qse-china]]
 
 ## Scope and Purpose of the Review
 
@@ -58,17 +58,17 @@ Key methodological elements include:
 - Cobb-Douglas production with labour share ≈ 0.5
 - Five-period frequency calibration to match Chinese census data cycles
 
-Links: [[quantitative-spatial-equilibrium-method]], [[dynamic-hat-algebra-method]]
+Links: [[quantitative-spatial-equilibrium]], dynamic hat algebra
 
 ## Concepts Engaged
 
-Links: [[dynamic-quantitative-spatial-equilibrium-concept]], [[curse-of-dimensionality-concept]], [[new-development-pattern-concept]], [[population-migration-concept]], [[regional-convergence-concept]]
+Links: dynamic quantitative spatial equilibrium, curse of dimensionality, new development pattern, population migration, regional convergence
 
 ## Connection to Debates
 
 > **Survey contribution** — The paper intervenes in the debate over whether steady-state analysis suffices for Chinese macroeconomic research. By showing that migration slows convergence so drastically that the steady state may be empirically irrelevant, it argues for dynamic transition-path analysis as the appropriate method for studying a large, spatially fragmented developing economy undergoing structural transformation.
 
-Links: [[steady-state-vs-transition-dynamics-debate]], [[population-dividend-vs-investment-debate]]
+Links: steady-state vs. transition dynamics, population dividend vs. investment
 
 ## Significance for the Literature
 

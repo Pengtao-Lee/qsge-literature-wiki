@@ -54,7 +54,7 @@ Key calibrated parameters: trade elasticity θ = 4, migration elasticity κ = 1.
 - The hukou system and collective land ownership create recurring flow costs (not sunk) that persistently distort location choices.
 - Intermediate input linkages amplify trade gains by a factor of ~3–4 relative to a model without intermediates.
 
-Links: [[mechanism-migration-labor-reallocation]], [[mechanism-hukou-distortion]]
+Links: migration and labor reallocation, hukou distortion
 
 ## Methods and Measures
 
@@ -64,7 +64,7 @@ Links: [[mechanism-migration-labor-reallocation]], [[mechanism-hukou-distortion]
 - **Migration data** from 1 percent sample of the 2000 Population Census and 20 percent sample of the 2005 mini-census.
 - **Trade data** from Li (2010) and Zhang and Qi (2012) inter-regional input-output tables for 2002 and 2007.
 
-Links: [[method-head-ries-trade-costs]], [[method-frechet-migration-choice]]
+Links: Head–Ries trade costs, Fréchet migration choice
 
 ## Concepts Engaged
 
@@ -73,13 +73,13 @@ Links: [[method-head-ries-trade-costs]], [[method-frechet-migration-choice]]
 - **Spatial equilibrium**: Applies the quantitative spatial economics framework (Ahlfeldt et al. 2015, Redding 2016) to China's institutional environment.
 - **Hukou as a migration friction**: Models the household registration system as an ongoing flow cost rather than a sunk barrier, interacting with collective land ownership.
 
-Links: [[concept-misallocation]], [[concept-spatial-equilibrium]], [[concept-internal-trade]]
+Links: misallocation, [[quantitative-spatial-equilibrium]], internal trade
 
 ## Connection to Debates
 
 > **Paper claim** — The paper directly challenges the "export-led growth" narrative for China's 2000–2005 boom: internal reforms (hukou liberalisation, anti-protectionist directives, highway construction, SOE reform) were far more important than WTO accession for aggregate productivity. External trade liberalisation mattered, but its contribution (8 percent) was dwarfed by internal friction reductions (28 percent).
 
-Links: [[debate-china-export-led-growth]], [[debate-internal-vs-external-liberalisation]]
+Links: China export-led growth, internal vs. external liberalisation
 
 ## Theoretical / Empirical Significance
 

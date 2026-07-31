@@ -59,7 +59,7 @@ The scale economy effect is the distinctively new mechanism that goes beyond tra
 
 A positive feedback loop operates: lower data prices → more data input → higher productivity → higher expected profits → more firm entry → larger market for data → even lower data prices.
 
-Links: [[mechanism-resource-allocation-effect]], [[mechanism-scale-economy-effect-data]], [[mechanism-data-factor-positive-feedback]]
+Links: resource allocation effect, scale economy effect of data, data factor positive feedback
 
 ## Methods and Measures
 
@@ -67,7 +67,7 @@ Links: [[mechanism-resource-allocation-effect]], [[mechanism-scale-economy-effec
 - **Measurement approach:** ζ (data elasticity) calibrated via three methods: (1) ICT intermediate input share in China's input-output table (0.018 baseline); (2) machine learning data elasticity estimates from Sun et al. (2017) and Jourdan et al. (2016); (3) data capital stock estimates from Liu et al. (2024) and Xu et al. (2023).
 - **Simulation algorithm:** "Hat algebra" (Dekle, Eaton, and Kortum, 2008) — solves for counterfactual changes without needing to estimate the full structural model's levels.
 
-Links: [[method-quantitative-spatial-equilibrium]], [[method-hat-algebra]]
+Links: [[quantitative-spatial-equilibrium]], [[exact-hat-algebra]]
 
 ## Concepts Engaged
 
@@ -77,13 +77,13 @@ Links: [[method-quantitative-spatial-equilibrium]], [[method-hat-algebra]]
 - **East-Calculates-West-Computes (东数西算)** — regional specialization in data processing.
 - **Multiplier effects of market integration** — unified markets amplify both positive and negative shocks.
 
-Links: [[concept-data-nonrivalry]], [[concept-data-factor]], [[concept-market-integration]], [[concept-east-calculates-west-computes]]
+Links: data nonrivalry, data factor, market integration, East-Calculates-West-Computes
 
 ## Connection to Debates
 
 > **Paper claim** — The paper contributes to the debate on whether data market integration matters beyond traditional factor market integration. It argues that non-rival data generates a distinct scale economy channel that is absent for rival factors, so policy frameworks for data markets should focus on expanding the scope of data reuse rather than only on spatial reallocation. It also engages the debate on data ownership (consumer vs. firm ownership), showing that the core growth mechanism is robust to ownership structure.
 
-Links: [[debate-data-ownership]], [[debate-data-market-vs-traditional-market-integration]]
+Links: data ownership, data market vs. traditional market integration
 
 ## Theoretical / Empirical Significance
 

@@ -54,7 +54,7 @@ A spatial equilibrium is defined by market clearing, welfare equalisation across
 - **The log-linear equilibrium relationships** (equations 15-16) show that population concentrates where exogenous productivity $\overline{A}$ and amenity $\overline{u}$ are high and where the price index is low; wages respond ambiguously depending on spillover sign.
 - **Geographic micro-foundation of trade costs** reduces the dimensionality of the trade cost function from $S \times S$ to $S$, via the instantaneous cost function $\tau(i)$ and the least-cost path.
 
-Links: [[mechanism-spatial-equilibrium]], [[mechanism-trade-costs-geography]]
+Links: spatial equilibrium, trade costs and geography
 
 ## Methods and Measures
 
@@ -65,7 +65,7 @@ Links: [[mechanism-spatial-equilibrium]], [[mechanism-trade-costs-geography]]
 - Nonlinear integral equation solution via iterative procedure (uniform limit of successive approximations)
 - 1,032-by-760 pixel GIS raster of US transportation networks (650,000 km roads, 225,000 km rail, 300,000 km navigable waterways)
 
-Links: [[method-fast-marching-method]], [[method-shapley-decomposition]], [[method-discrete-choice-trade-costs]]
+Links: fast-marching method, Shapley decomposition, discrete-choice trade costs
 
 ## Concepts Engaged
 
@@ -79,7 +79,7 @@ Links: [[method-fast-marching-method]], [[method-shapley-decomposition]], [[meth
 - Roback (1982) model extension with costly trade
 - Isomorphism between different spatial models (monopolistic competition, Helpman-Redding housing, heterogeneous preferences)
 
-Links: [[concept-spatial-equilibrium]], [[concept-gravity-trade]], [[concept-iceberg-trade-costs]], [[concept-agglomeration-dispersion]]
+Links: [[quantitative-spatial-equilibrium]], [[gravity-in-spatial-economics]], iceberg trade costs, agglomeration and dispersion
 
 ## Connection to Debates
 
@@ -89,7 +89,7 @@ Links: [[concept-spatial-equilibrium]], [[concept-gravity-trade]], [[concept-ice
 - Contributes to the transportation infrastructure cost-benefit debate by providing welfare estimates for the Interstate Highway System that substantially exceed its construction costs.
 - Provides a unified framework that nests several previously distinct spatial theories (Krugman monopolistic competition, Helpman housing model, Roback locational equilibrium) as special cases of a common structure.
 
-Links: [[debate-first-nature-vs-second-nature-geography]], [[debate-transportation-infrastructure-welfare]]
+Links: first-nature vs. second-nature geography, transportation infrastructure and welfare
 
 ## Theoretical / Empirical Significance
 

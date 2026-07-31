@@ -4,7 +4,8 @@ How key variables are operationalized.
 
 ## Pages
 
-*Add entries here as pages are created. Format: `- [[slug]] — one-line description`*
+- [[commuter-market-access]] — Market access measured through commuting flows and travel-time costs
+- [[trade-elasticity-estimation]] — Estimating the trade elasticity θ from trade, price, and tariff data
 
 ## Navigation
 

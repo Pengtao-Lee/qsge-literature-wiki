@@ -57,7 +57,7 @@ A multi-region (219 Chinese cities plus the rest of the world), multi-industry (
 - **Digital divide mechanism**: Because \(\beta_2 > \beta_1\), infrastructure expansion in lagging regions yields disproportionately large trade-cost reductions per unit of investment. The narrowing of the digital divide (Gini coefficient of base-station density fell from 0.662 in 2012 to 0.391 in 2019) is therefore itself a welfare-enhancing force.
 - **Sectoral spillovers**: Tradable industries benefit directly from lower trade costs (especially petroleum processing, chemicals, and non-metallic mineral products). Non-tradable industries benefit indirectly through I-O linkages — wholesale and retail trade gains most from expanded inter-regional commerce.
 
-Links: [[mechanism-digital-divide-trade-costs]], [[mechanism-input-output-spillovers]]
+Links: digital divide and trade costs, input–output spillovers
 
 ## Methods and Measures
 
@@ -67,7 +67,7 @@ Links: [[mechanism-digital-divide-trade-costs]], [[mechanism-input-output-spillo
 - **IV strategy**: (a) "Broadband China" pilot city status and (b) spherical distance to "Eight Vertical Eight Horizontal" optical fibre backbone nodes, each interacted with national averages.
 - **Foster welfare function** \(W = \overline{int} \times \exp(-\text{Gini})\) for optimal resource reallocation counterfactuals.
 
-Links: [[method-quantitative-spatial-equilibrium]], [[method-gravity-infrastructure]]
+Links: [[quantitative-spatial-equilibrium]], gravity-based infrastructure regression
 
 ## Concepts Engaged
 
@@ -76,13 +76,13 @@ Links: [[method-quantitative-spatial-equilibrium]], [[method-gravity-infrastruct
 - **National unified market (全国统一大市场)**: Infrastructure-driven trade-cost reduction is positioned as a mechanism for domestic market integration, echoing the policy discourse of China's "national unified market" agenda.
 - **Welfare in spatial equilibrium**: Welfare is measured as real income \(w_n/P_n\), capturing both nominal earnings and the cost-of-living effects of inter-regional trade.
 
-Links: [[concept-digital-divide]], [[concept-network-infrastructure-welfare]], [[concept-unified-national-market]]
+Links: digital divide, network infrastructure welfare, unified national market
 
 ## Connection to Debates
 
 > **Paper claim** — The paper contributes to the debate on "new infrastructure" (新基建) versus traditional infrastructure in China: network infrastructure delivers welfare gains on par with major institutional reforms (hukou liberalisation) and traditional physical infrastructure (road networks), but through a distinct mechanism — information-cost reduction rather than physical-connectivity improvement. It also speaks to the "digital divide and inequality" debate by demonstrating that narrowing the digital divide is not merely a distributional concern but a source of aggregate efficiency gain.
 
-Links: [[debate-new-infrastructure-versus-traditional]], [[debate-digital-divide-inequality]]
+Links: new infrastructure versus traditional infrastructure, digital divide and inequality
 
 ## Theoretical / Empirical Significance
 

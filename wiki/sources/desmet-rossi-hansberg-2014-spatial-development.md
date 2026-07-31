@@ -62,7 +62,7 @@ Key structural assumptions that render the model tractable: (i) labor mobility a
 
 - **Land competition as the propagation mechanism:** Collocation of the two sectors bids up land rents in the shared area, increasing both the level and the spatial dispersion of land prices — a spatial signature absent from one-sector or representative-agent growth models.
 
-Links: [[structural-transformation]], [[spatial-innovation-scale-effect]], [[land-rent-dispersion]]
+Links: structural transformation, spatial innovation scale effect, land rent dispersion
 
 ## Methods and Measures
 
@@ -72,24 +72,24 @@ Links: [[structural-transformation]], [[spatial-innovation-scale-effect]], [[lan
 - **Calibration targets:** Preference parameters (h_M, h_S) match 1950 employment shares. The elasticity of substitution is set to 0.4 (following Stockman and Tesar 1995). Transport cost κ = 0.08 (from Desmet and Rossi-Hansberg 2012, adjusted downward from inter-country estimates). Diffusion decay δ = 7.5 (from Comin, Dmitriev, and Rossi-Hansberg 2012). Innovation cost parameters ψ₁, ψ₂ and the Pareto shape a are jointly calibrated to match average manufacturing and service productivity growth (1980–2005).
 - **Empirical data:** BEA Industry Economic Accounts (value added, employment, prices by industry, 1950–2005); BEA Regional Economic Accounts (county employment by sector); US Census County and City Databooks; Shiller (2005) and Davis and Heathcote (2007) land/housing price indexes; Davis and Palumbo (2008) MSA-level land values.
 
-Links: [[sequential-market-clearing]], [[iceberg-transport-costs]], [[spatial-diffusion-model]]
+Links: sequential market clearing, iceberg transport costs, spatial diffusion model
 
 ## Concepts Engaged
 
-- [[endogenous-growth]] — innovation is a costly, profit-maximising decision with stochastic returns.
-- [[structural-transformation]] — the reallocation of employment across sectors as a driver of aggregate dynamics.
-- [[spatial-equilibrium]] — free labour mobility equalises utility across locations each period.
-- [[agglomeration-economies]] — the scale effect in innovation creates a density-productivity link.
-- [[technology-diffusion]] — spatial decay of knowledge spillovers (exponential form).
-- [[iceberg-transport-costs]] — standard device from trade and economic geography.
-- [[land-rent]] — the fixed factor through which competition transmits agglomeration forces.
-- [[balanced-growth-path]] — the economy asymptotically converges to constant common growth in both sectors.
+- endogenous growth — innovation is a costly, profit-maximising decision with stochastic returns.
+- structural transformation — the reallocation of employment across sectors as a driver of aggregate dynamics.
+- spatial equilibrium — free labour mobility equalises utility across locations each period.
+- agglomeration economies — the scale effect in innovation creates a density-productivity link.
+- technology diffusion — spatial decay of knowledge spillovers (exponential form).
+- iceberg transport costs — standard device from trade and economic geography.
+- land rent — the fixed factor through which competition transmits agglomeration forces.
+- balanced growth path — the economy asymptotically converges to constant common growth in both sectors.
 
 ## Connection to Debates
 
 > **Paper claim** — This paper enters the debate on whether structural transformation condemns a mature economy to Baumol's cost disease (secular stagnation of the low-productivity-growth sector). It argues the opposite: the reallocation of labour into the lagging sector eventually creates enough spatial concentration to trigger endogenous innovation in that sector, reversing the productivity growth differential. It also contributes to the debate on transport costs and growth (Baldwin and Martin 2004) by showing that higher transport costs can improve welfare through dynamic clustering gains, a "second best" result arising from the innovation externality. Finally, it provides a spatial micro-foundation for the observed post-1995 rise in land-price dispersion, linking housing-market dynamics to real-sector innovation and agglomeration.
 
-Links: [[baumol-cost-disease-debate]], [[transport-costs-and-growth-debate]]
+Links: Baumol cost disease debate, transport costs and growth debate
 
 ## Theoretical / Empirical Significance
 

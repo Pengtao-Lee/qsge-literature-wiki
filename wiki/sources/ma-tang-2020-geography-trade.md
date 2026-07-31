@@ -53,7 +53,7 @@ The paper develops a **multi-city general equilibrium trade model** with three k
 
 A secondary mechanism is **trade-mediated spillovers**: productivity gains in "superstar" cities propagate to neighbouring cities through reduced prices for tradable goods, benefiting those spared from congestion.
 
-Links: [[mechanism-firm-entry-and-variety-expansion]], [[mechanism-trade-spillovers]]
+Links: firm entry and variety expansion, trade spillovers
 
 ## Methods and Measures
 
@@ -64,7 +64,7 @@ Links: [[mechanism-firm-entry-and-variety-expansion]], [[mechanism-trade-spillov
 - **Bootstrap inference** (100 repetitions) for standard errors on all estimated parameters.
 - **Counter-factual comparative statics** between two spatial equilibria (2000 vs. 2005 population distributions) to isolate migration impacts.
 
-Links: [[method-fast-marching-method]], [[method-particle-swarm-optimization]], [[method-simulated-methods-of-moments]]
+Links: fast-marching method, particle swarm optimization, simulated methods of moments
 
 ## Concepts Engaged
 
@@ -74,7 +74,7 @@ Links: [[method-fast-marching-method]], [[method-particle-swarm-optimization]], 
 - **Spatial equilibrium** — workers sort across cities until no one can gain by moving, balancing real wages, congestion, migration frictions, and idiosyncratic preferences.
 - **Trade-migration substitutability/complementarity** — internal trade and migration are substitutes (both move goods/people across space), but migration and international trade are complements (migration amplifies gains from trade liberalisation).
 
-Links: [[concept-hukou-system]], [[concept-congestion-disutility]], [[concept-love-of-variety]], [[concept-spatial-equilibrium]]
+Links: [[economics-of-the-hukou-system]], congestion disutility, love of variety, [[quantitative-spatial-equilibrium]]
 
 ## Connection to Debates
 
@@ -82,7 +82,7 @@ Links: [[concept-hukou-system]], [[concept-congestion-disutility]], [[concept-lo
 
 The paper also contributes to the debate on the gains from trade by showing that spatial factor reallocation is a quantitatively dominant channel — overlooked by standard quantitative trade models — amplifying gains by 55%.
 
-Links: [[debate-immigration-local-welfare]], [[debate-gains-from-trade-with-migration]]
+Links: immigration and local welfare, gains from trade with migration
 
 ## Theoretical / Empirical Significance
 

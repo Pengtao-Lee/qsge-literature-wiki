@@ -64,7 +64,7 @@ The quantitative illustration in Section 3 shows that internal trade liberalisat
 - **Market access mechanism**: both firm market access (access to consumers) and consumer market access (access to varieties) determine wages and population.
 - **Gravity equation**: bilateral trade and commuting flows increase with origin/destination size and decrease with distance — a robust prediction across the entire class of models.
 
-Links: [[agglomeration-mechanisms]], [[gravity-equation]], [[market-access]], [[knowledge-spillovers]]
+Links: agglomeration mechanisms, [[gravity-in-spatial-economics]], market access, knowledge spillovers
 
 ## Methods and Measures
 
@@ -77,7 +77,7 @@ Links: [[agglomeration-mechanisms]], [[gravity-equation]], [[market-access]], [[
 - **Structural estimation using natural experiments**: division of Germany (Redding & Sturm 2008), the Berlin Wall (Ahlfeldt et al. 2015), the Tennessee Valley Authority (Kline & Moretti 2014a), Indian railroads (Donaldson 2016).
 - **Sufficient statistics for welfare**: the domestic trade share and population change are sufficient statistics for welfare effects of trade cost changes (analogous to Arkolakis et al. 2012).
 
-Links: [[model-inversion]], [[exact-hat-algebra]], [[sufficient-statistics-welfare]]
+Links: [[model-inversion-and-fundamentals-recovery]], [[exact-hat-algebra]], [[sufficient-statistics-in-spatial-models]]
 
 ## Concepts Engaged
 
@@ -87,7 +87,7 @@ Links: [[model-inversion]], [[exact-hat-algebra]], [[sufficient-statistics-welfa
 - **Gravity equation**: the unifying empirical regularity across trade, commuting, and migration flows.
 - **Structural vs. reduced-form approaches**: the Lucas critique, external validity, and the role of general-equilibrium spatial interactions.
 
-Links: [[agglomeration-economies]], [[market-access]], [[path-dependence]], [[gravity-equation]], [[structural-estimation]]
+Links: agglomeration economies, market access, path dependence, [[gravity-in-spatial-economics]], structural estimation
 
 ## Connection to Debates
 
@@ -97,7 +97,7 @@ Links: [[agglomeration-economies]], [[market-access]], [[path-dependence]], [[gr
 - **Reduced-form vs. structural approaches**: A key theme is that reduced-form estimates of local employment elasticities or treatment effects need not generalise across contexts because spatial linkages produce heterogeneous effects that difference-in-differences designs difference away.
 - **Internal vs. external trade costs**: The quantitative illustration suggests internal (within-country) trade frictions are substantially more important for welfare than international trade frictions, challenging the traditional focus of trade policy analysis on border barriers.
 
-Links: [[multiple-equilibria-geography]], [[reduced-form-vs-structural]], [[internal-vs-external-trade-costs]]
+Links: multiple equilibria in geography, reduced-form vs. structural, internal vs. external trade costs
 
 ## Theoretical / Empirical Significance
 

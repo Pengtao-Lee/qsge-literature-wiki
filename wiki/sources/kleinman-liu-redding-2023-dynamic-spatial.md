@@ -71,7 +71,7 @@ How do forward-looking capital accumulation and migration frictions interact to 
 
 > **Paper claim** — Convergence to steady state is slow when capital and labor gaps from steady state are positively correlated across locations (both above or both below), because above-steady-state capital raises the marginal product of labor (dampening labor's downward adjustment) and above-steady-state labor raises the marginal product of capital (retarding capital's downward adjustment). Fast convergence occurs when these gaps are negatively correlated.
 
-Links: [[mechanism-capital-labor-interaction]], [[mechanism-spatial-convergence]]
+Links: capital–labor interaction, spatial convergence
 
 ## Methods and Measures
 
@@ -80,7 +80,7 @@ Links: [[mechanism-capital-labor-interaction]], [[mechanism-spatial-convergence]
 - **Model inversion**: Recovers unobserved changes in productivity, amenities, trade costs, and migration costs from observed changes in endogenous variables along the transition path.
 - **Data construction**: Interpolation of 5-year migration flows between census decades; extrapolation of bilateral trade flows before 1977 using origin/destination income changes.
 
-Links: [[method-dynamic-exact-hat]], [[method-spectral-analysis-dynamic-spatial]]
+Links: [[exact-hat-algebra]], spectral analysis of dynamic spatial models
 
 ## Concepts Engaged
 
@@ -90,13 +90,13 @@ Links: [[method-dynamic-exact-hat]], [[method-spectral-analysis-dynamic-spatial]
 - **Persistent impact of local shocks** — slow adjustment (decades-long half-lives) rationalizes empirical findings like the China shock
 - **Nonmonotonic transition dynamics** — neighbors of a shocked region may first gain then lose population
 
-Links: [[concept-spatial-equilibrium]], [[concept-income-convergence]], [[concept-eigenshock]], [[concept-nonmonotonic-transition-dynamics]]
+Links: [[quantitative-spatial-equilibrium]], income convergence, eigenshock, nonmonotonic transition dynamics
 
 ## Connection to Debates
 
 > **Paper claim** — The interaction between capital accumulation and migration dynamics, rather than either force alone, is central to understanding both the decline in U.S. income convergence and the persistent heterogeneous impact of local shocks. Initial conditions (the 1965 spatial distribution of capital and labor relative to steady state) matter more than the pattern of subsequent fundamental shocks.
 
-Links: [[debate-income-convergence-determinants]], [[debate-persistence-of-local-shocks]]
+Links: income convergence determinants, persistence of local shocks
 
 ## Theoretical / Empirical Significance
 

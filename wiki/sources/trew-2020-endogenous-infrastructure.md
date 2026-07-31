@@ -5,7 +5,7 @@ authors: ["Trew, Alex"]
 year: 2020
 slug: trew-2020-endogenous-infrastructure
 tags: [endogenous-infrastructure, spatial-development, transport-costs, industrial-revolution, structural-transformation]
-raw_markdown: "[[raw_markdown/papers/trew-2020-endogenous-infrastructure.md]]"
+raw_markdown: "[[raw_markdown/papers/trew-2020-endogenous-infrastructure]]"
 status: canonical
 journal: "American Economic Review: Insights, 2(4), 473–490"
 ---
@@ -14,7 +14,7 @@ journal: "American Economic Review: Insights, 2(4), 473–490"
 
 > **Paper claim** — The timing and spatial distribution of infrastructure development interact bidirectionally with spatial economic growth, structural transformation, and the onset of industrial takeoff; early localized infrastructure investment accelerates takeoff, while uniformly distributed investment does not, and the geographical location of first industrial innovation is robust to most counterfactual transport policies.
 
-Raw markdown: [[raw_markdown/papers/trew-2020-endogenous-infrastructure.md]]
+Raw markdown: [[raw_markdown/papers/trew-2020-endogenous-infrastructure]]
 
 ## Research Question
 

@@ -68,7 +68,7 @@ Pre-set parameters: congestion elasticity \(\psi = -0.1\) (Ahlfeldt et al. 2015)
 - The equalising effect of uniform friction reduction exhibits decreasing returns to scale: prefectures with initially higher dispersion benefit more, so the gap between rich and poor narrows.
 - The welfare impact of productivity correlation depends on its sign: positive correlation (taxing productive firms) is unambiguously costly; negative correlation (subsidising productive firms) has an ambiguous net effect because it boosts output from productive firms while discouraging entry and variety.
 
-Links: [[mechanism-labor-migration-escape]], [[mechanism-misallocation-channels]]
+Links: labor migration escape, misallocation channels
 
 ## Methods and Measures
 
@@ -78,7 +78,7 @@ Links: [[mechanism-labor-migration-escape]], [[mechanism-misallocation-channels]
 - **Pareto-conditional discretization**: frictions are discretised into a \(5 \times 5\) grid; conditional on each grid point, productivity is assumed Pareto and integrated analytically, significantly reducing computational cost.
 - **Counterfactual simulation**: re-discretise friction grids under counterfactual parameters (\(\sigma\) and \(\rho\) reductions), re-estimate conditional productivity distributions, and solve the full general equilibrium.
 
-Links: [[method-hsieh-klenow-wedges]], [[method-simulated-method-of-moments]], [[method-pareto-conditional-discretization]]
+Links: Hsieh–Klenow wedges, simulated method of moments, Pareto-conditional discretization
 
 ## Concepts Engaged
 
@@ -87,13 +87,13 @@ Links: [[method-hsieh-klenow-wedges]], [[method-simulated-method-of-moments]], [
 - **Migration as an adjustment margin**: Demonstrates that internal migration is both a consequence of and a response to local misallocation — a two-way interaction absent from prior misallocation studies.
 - **Place-based vs. people-based policy**: The welfare-equivalent policy comparison (friction reduction vs. migration liberalisation) directly speaks to the debate over whether to "help poor places" or "help poor people."
 
-Links: [[concept-misallocation]], [[concept-spatial-equilibrium]], [[concept-migration-adjustment]]
+Links: misallocation, [[quantitative-spatial-equilibrium]], migration adjustment
 
 ## Connection to Debates
 
 > **Paper claim** — The paper contributes to the debate on place-based versus people-based policies in China: reducing within-prefecture misallocation (a place-based policy) and liberalising migration barriers (a people-based policy) can achieve equivalent aggregate welfare gains but have opposite effects on spatial inequality. This implies policy-makers face a sharp trade-off between aggregate efficiency and spatial equity objectives unless both instruments are deployed in combination.
 
-Links: [[debate-place-based-vs-people-based]], [[debate-internal-vs-external-liberalisation]]
+Links: place-based vs. people-based, internal vs. external liberalisation
 
 ## Theoretical / Empirical Significance
 
