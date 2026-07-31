@@ -12,7 +12,11 @@ const nextConfig: NextConfig = {
   output: "export",
   images: { unoptimized: true },
   // Required for GitHub Pages: add repo name as base path
-  basePath: basePath,
+  basePath,
+  // Make the same prefix available to client-side fetches.
+  env: {
+    NEXT_PUBLIC_BASE_PATH: basePath,
+  },
   // Pin the file-tracing root
   outputFileTracingRoot: path.join(__dirname),
 };
