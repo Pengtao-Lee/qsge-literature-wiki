@@ -96,7 +96,7 @@ export default function SearchPage() {
   // Load + index the wiki index on mount.
   useEffect(() => {
     let cancelled = false;
-    fetch("/wiki-index.json", { cache: "no-store" })
+    fetch(`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/wiki-index.json`, { cache: "no-store" })
       .then(async (res) => {
         if (res.status === 404) throw new Error("__MISSING__");
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
