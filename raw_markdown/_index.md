@@ -6,7 +6,7 @@ Machine-readable conversions of source PDFs.
 
 | Directory | Contents |
 |---|---|
-| `papers/` | One `.md` file per PDF, converted via markitdown |
+| `papers/` | One `.md` file per PDF, converted via markitdown by default; the 12-paper QSGE expansion added in 2026-07 was converted with MinerU VLM |
 | `metadata/` | One `.json` sidecar per paper (slug, word count, sha256, conversion notes) |
 | `assets/` | Images and attachments extracted from PDFs |
 
